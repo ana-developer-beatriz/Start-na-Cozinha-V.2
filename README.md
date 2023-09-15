@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Desenvolvimento de uma aplicação web que possibilite disponibilização de receitas por chef's e visualização e comentários por usuários interessados em receitas práticas e saudáveis. As postagens de receitas e comentários são avaliadas por um moderador.
 
 ## Integrantes
 
