@@ -7,9 +7,8 @@ Cada vez mais nossa sociedade tem optado pela praticidade oferecida por alimento
 De forma geral, buscar uma alimentação mais rápida e prática nem sempre será a melhor maneira de se alimentar. Mas para quem não sabe cozinhar, a facilidade de comprar uma refeição pronta e a falta de conhecimento para preparar sua própria refeição, é a alternativa mais vista atualmente.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O principal problema que buscamos minimizar com o projeto é a falta de conhecimento no preparo de refeições. As pessoas que não sabem cozinhar precisam de orientações e às vezes não têm a quem recorrer.a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
 
 ## Objetivos
