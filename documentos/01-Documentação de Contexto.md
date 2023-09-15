@@ -1,6 +1,10 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Vivemos tempos em que a praticidade é algo quase indispensável no dia a dia. Principalmente para quem tem rotinas diárias com inúmeras tarefas: estudar, trabalhar, cuidar da família, cuidar da saúde física, etc. Pessoas que não sabem cozinhar podem enfrentar uma série de problemas e desafios relacionados a sua saúde e economia. Uma situação que, a princípio, parece pouco relevante, pode se tornar um verdadeiro problema na vida de algumas pessoas ou de uma família inteira.
+
+Cada vez mais nossa sociedade tem optado pela praticidade oferecida por alimentos industrializados, alimentos prontos e fast food. A urgência do dia a dia da sociedade moderna e as gerações cada vez mais imediatistas favorecem a proliferação destes tipos de alimentos no mercado (BALEM et al., 2017). Está se tornando evidente a associação do consumo destes alimentos e outros fatores de estilo de vida ao surgimento de doenças e desequilíbrios do organismo humano a longo prazo (MINISTÉRIO DA SAÚDE, 2019). 
+
+De forma geral, buscar uma alimentação mais rápida e prática nem sempre será a melhor maneira de se alimentar. Mas para quem não sabe cozinhar, a facilidade de comprar uma refeição pronta e a falta de conhecimento para preparar sua própria refeição, é a alternativa mais vista atualmente.
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
