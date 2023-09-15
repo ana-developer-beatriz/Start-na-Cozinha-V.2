@@ -13,26 +13,26 @@ O principal problema que buscamos minimizar com o projeto é a falta de conhecim
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral do projeto é desenvolver uma aplicação web que ensine o passo a passo para a preparação de diversas receitas, independente do nível de habilidade de quem está preparando, contribuindo para uma alimentação mais equilibrada, proporcionando independência.
+
+Como objetivos específicos, podemos citar:
+
+- Identificar conceitos básicos para se iniciar a prática na cozinha doméstica, oferecendo soluções simples e práticas para as necessidades dos usuários, disponibilizando um passo a passo para preparo de comidas;
+fornecer um ambiente web para disponibilização de receitas e registros de experiências com as receitas utilizadas.
+
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Conforme pesquisa realizada por Balem et al. (2017), com pessoas na faixa entre 17 e 30 anos, 80% dos participantes indicaram a falta de tempo e correria do dia a dia como motivo para optarem por alimentos industrializados em suas rotinas, embora tenham ciência de que não são a opção mais saudável. Além disso, na faixa etária dos 31 aos 50 anos, embora também possuam uma alimentação predominantemente industrializada, fazem essa opção pelo fato da vida moderna já ter incorporado a correria do dia a dia em sua rotina. O estudo se justifica em estabelecer o contato das pessoas que vivem esse dilema de buscar um melhor estilo de vida/alimentação e não têm conhecimento para fazê-lo, com uma plataforma web que ofereça dicas, orientações e direcionamentos para preparar suas refeições ou de sua família.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O projeto visa atender pessoas que buscam aprender a cozinhar ou descobrir novas receitas, fugindo assim dos alimentos industrializados. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+Conforme BRASIL (2021), muitas pessoas que optam por morar sozinhas passam a enfrentar o desafio de manter uma alimentação saudável. As causas podem ser as mais diversas mas, a falta de tempo ou de habilidades culinárias são algumas delas. 
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+Incluem-se, também, no público-alvo os chefs que compartilham suas receitas.
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+A plataforma fornece orientações, receitas e dicas que sejam adequadas e úteis a todos os visitantes.
+
 
