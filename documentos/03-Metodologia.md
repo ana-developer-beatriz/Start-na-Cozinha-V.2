@@ -28,7 +28,7 @@ Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estrut
 Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades:
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/documentos/img/labels_projeto_ads.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/880349197fc761f65113eb46244cca68788a6abb/documentos/img/kanban_projeto_ads.jpeg"
     <figcaption>Figura 1 - Tela do Kanban de acompanhamento da execução do projeto</figcaption>
 </figure> 
 
@@ -45,7 +45,7 @@ Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/880349197fc761f65113eb46244cca68788a6abb/documentos/img/labels_projeto_ads.png"
     <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
