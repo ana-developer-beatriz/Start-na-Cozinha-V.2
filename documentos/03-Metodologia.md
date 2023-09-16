@@ -25,7 +25,8 @@ Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estrut
 - Em Andamento: lista que identifica as tarefas em execução no momento.
 - Finalizado: lista que representa os itens concluídos e testados, aprovados para entrega ao cliente.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/112132378/514a841c-0d73-42de-8394-888bd1cae5ab)
+Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades:
+
 
 
 ### Etiquetas
