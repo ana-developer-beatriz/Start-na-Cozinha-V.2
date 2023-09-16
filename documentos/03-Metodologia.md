@@ -20,10 +20,13 @@ A organização da equipe se dará da seguinte forma:
 
 Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estruturar as seguintes listas para acompanhamento:
 
-- Backlog: lista que identifica todas as tarefas a serem executadas.
+- Backlog do produto: lista que identifica todas as tarefas a serem executadas.
 - A Fazer: lista que apresenta os itens que compõem o Sprint Backlog em execução.
 - Em Andamento: lista que identifica as tarefas em execução no momento.
 - Finalizado: lista que representa os itens concluídos e testados, aprovados para entrega ao cliente.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/112132378/514a841c-0d73-42de-8394-888bd1cae5ab)
+
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
