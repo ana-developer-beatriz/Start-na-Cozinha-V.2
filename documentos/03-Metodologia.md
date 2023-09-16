@@ -1,42 +1,29 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
-
-
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+Para o desenvolvimento do projeto foi definida a metodologia de processos ágeis, considerando as palavras de GRANDO (2010), onde a abordagem ágil possui um aspecto mais flexível e adaptativo, orientado a pessoas, desenvolvido por uma equipe pequena, e “... com o objetivo de simplificar o processo de desenvolvimento, minimizando e otimizando tarefas e artefatos”.  
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+O método escolhido foi o SCRUM, uma vez que possui entre suas características o desenvolvimento com poucas pessoas gerando flexibilidade no trabalho e qualidade na comunicação, o que facilita a adaptabilidade das tarefas às necessidades e mudanças para uma entrega de qualidade. (ESPINHA, [20-?]).
+
 
 ### Divisão de Papéis
-
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A organização da equipe se dará da seguinte forma:
+<ul>
+  <li>Scrum Master: Clarence Silva Aguiar e Gabriel de Oliveira Mendonça</li>
+  <li>Product Owner: Ana Beatriz e Clarence Silva Aguiar</li>
+  <li>Equipe de Desenvolvimento: Alvacy Pereira Silva Junior, Ana Beatriz Araújo Brandão, Caio Slaviero da Cunha, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;</li>
+  <li>Equipe de Design: Caio Slaviero da Cunha.</li>
+</ul>
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estruturar as seguintes listas para acompanhamento:
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
+- Backlog: lista que identifica todas as tarefas a serem executadas.
+- A Fazer: lista que apresenta os itens que compõem o Sprint Backlog em execução.
+- Em Andamento: lista que identifica as tarefas em execução no momento.
+- Finalizado: lista que representa os itens concluídos e testados, aprovados para entrega ao cliente.
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
