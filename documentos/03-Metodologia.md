@@ -10,8 +10,8 @@ O método escolhido foi o SCRUM, uma vez que possui entre suas características 
 ### Divisão de Papéis
 A organização da equipe se dará da seguinte forma:
 <ul>
-  <li>Scrum Master: Clarence Silva Aguiar e Gabriel de Oliveira Mendonça</li>
-  <li>Product Owner: Ana Beatriz e Clarence Silva Aguiar</li>
+  <li>Scrum Master: Clarence Silva Aguiar;</li>
+  <li>Product Owner: Ana Beatriz;</li>
   <li>Equipe de Desenvolvimento: Alvacy Pereira Silva Junior, Ana Beatriz Araújo Brandão, Caio Slaviero da Cunha, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;</li>
   <li>Equipe de Design: Caio Slaviero da Cunha.</li>
 </ul>
@@ -55,8 +55,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/codigo-fonte/|
-| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/documentos/|
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/59d10844eb048a3d559f9af6c5a7c777101793fd/codigo-fonte|
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/54446cf8329a3eb22df526de31179136351c2477/documentos|
 | Projeto de Interface                | MarvelApp                          | https://marvelapp.com/prototype/a0afee5|
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/626|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
@@ -64,4 +64,4 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site estão na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/59d10844eb048a3d559f9af6c5a7c777101793fd/codigo-fonte)
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site estão na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/59d10844eb048a3d559f9af6c5a7c777101793fd/codigo-fonte).
