@@ -28,7 +28,7 @@ Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estrut
 Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades:
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/03c7fa16b4f2b1d2392a7a2f1542715ad222d72d/documentos/img/kanban_projeto_ads.jpeg"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/documentos/img/labels_projeto_ads.png"
     <figcaption>Figura 1 - Tela do Kanban de acompanhamento da execução do projeto</figcaption>
 </figure> 
 
