@@ -27,7 +27,10 @@ Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estrut
 
 Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades:
 
-
+<figure> 
+  <img src="documentos/img/kanban_projeto_ads.jpeg"
+    <figcaption>Figura 1 - Tela do Kanban de acompanhamento da execução do projeto</figcaption>
+</figure> 
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
