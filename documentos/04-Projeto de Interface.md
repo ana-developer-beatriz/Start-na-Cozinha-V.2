@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse o MarvelApp https://marvelapp.com/prototype/a0afee5/screen/92715119.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse: https://marvelapp.com/prototype/a0afee5/screen/92715119.
 
 ![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3255e08e-c5a2-42c8-996f-a8251dfe114d)
 
