@@ -30,8 +30,7 @@ Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação
 Conteúdo - apresenta o conteúdo da tela em questão;
 Rodapé - apresenta informações sobre os direitos autorais.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/1f0712d1-f0cb-4c56-88d9-2a162bfd8a80)
-
+![Estrutura padrão do site](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/892b8150-587c-435e-887e-93c40710d49b)
 
 Figura 2 - Estrutura padrão do site
 
