@@ -16,9 +16,30 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Protótipo
 
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue.
+
+
+
 Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
 
 ### Protótipo de baixa fidelidade
+
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+
+Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);
+Conteúdo - apresenta o conteúdo da tela em questão;
+Rodapé - apresenta informações sobre os direitos autorais.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/3f836eeb-6685-48ad-9a4e-bcf9b831a800)
+
+Figura 2 - Estrutura padrão do site
+
+Tela - Home page
+A tela de home page apresenta banners que remetem para as páginas de cadastro de Chef e Receitas e uma breve descrição sobre o projeto.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/deeef62f-7069-4cbb-9f77-38a4e1e43e65)
+
+Figura 3 - Tela home page
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
