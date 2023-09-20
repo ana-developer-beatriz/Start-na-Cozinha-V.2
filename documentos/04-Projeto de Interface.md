@@ -31,11 +31,28 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <hr>
 
 <h3><b>Tela - Home page</b></h3>
-A tela de home page apresenta banners que remetem para as páginas de cadastro de Chef e Receitas e uma breve descrição sobre o projeto.
+A tela de home page apresenta banners que remetem para as páginas de cadastro de Chef, Receitas e uma breve descrição sobre o projeto.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/deeef62f-7069-4cbb-9f77-38a4e1e43e65)
 
-Figura 3 - Tela home page
+<figure> 
+  <figcaption>Figura 3 - Tela home page
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Login do Chef</b></h3>
+<p>A tela de Login apresenta um formulário para acessar a área do Chef.</p>
+  
+![login]"https://marvel-live.freetls.fastly.net/serve/2023/9/c5eaa727e2654d8ab4f37cc5d2fff96c.png?quality=95&fake=.png"
+
+  
+<figure> 
+  <figcaption> Figura 4 - Tela de Login do Chef
+</figure> 
+<hr>
+
+
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
