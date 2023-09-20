@@ -3,10 +3,11 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse o MarvelApp.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse o MarvelApp https://marvelapp.com/prototype/a0afee5/screen/92715119.
 
-![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/c7ed2f2f-3d43-4bf5-a79f-27af38bd6797)
+![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3255e08e-c5a2-42c8-996f-a8251dfe114d)
 
+Figura 1 - Fluxo de telas do usuário
 
 > **Links Úteis**:
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
