@@ -14,27 +14,23 @@ Figura 1 - Fluxo de telas do usuário
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
-## Protótipo
-
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue.
-
-
-
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
 
 ### Protótipo de baixa fidelidade
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+<ul>
+  <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
+  <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
+  <li>Rodapé - apresenta informações sobre os direitos autorais.</li>
+</ul>
 
-Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);
-Conteúdo - apresenta o conteúdo da tela em questão;
-Rodapé - apresenta informações sobre os direitos autorais.
+<figure> 
+<img src="https://marvel-live.freetls.fastly.net/serve/2023/9/b6cf4804a8d34129ab50ea5335ccb852.png?quality=95&fake=.png"
+ <figcaption> Figura 2 - Estrutura padrão do site
+</figure> 
+<hr>
 
-![Estrutura padrão do site](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/57c60327-68a3-4a9d-bed0-81fd58a29d1d)
-
-Figura 2 - Estrutura padrão do site
-
-Tela - Home page
+<h3><b>Tela - Home page</b></h3>
 A tela de home page apresenta banners que remetem para as páginas de cadastro de Chef e Receitas e uma breve descrição sobre o projeto.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/deeef62f-7069-4cbb-9f77-38a4e1e43e65)
