@@ -42,13 +42,40 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <h3><b>Tela - Login do Chef</b></h3>
-<p>A tela de Login apresenta um formulário para acessar a área do Chef.</p>
+<p>A tela de Login apresenta um formulário para acessar a área do Chef, ou criar uma nova conta.</p>
   
-![login]"https://marvel-live.freetls.fastly.net/serve/2023/9/c5eaa727e2654d8ab4f37cc5d2fff96c.png?quality=95&fake=.png"
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/a133f928-093d-4648-aa0c-2915be5fe2f0)
+
 
   
 <figure> 
   <figcaption> Figura 4 - Tela de Login do Chef
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Cadastro do Chef</b></h3>
+<p>A tela de Cadastro do Chef apresenta um formulário a ser preenchido pelo Chef que quiser ter uma conta na plataforma e assim poder cadastrar suas receitas.</p>
+  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/f931e7f5-6857-4d7d-acdc-6058b70de22a)
+
+
+  
+<figure> 
+  <figcaption> Figura 5 - Tela de Cadastro do Chef
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Confirmação de cadastro do Chef</b></h3>
+<p>A tela de Confirmação de cadastro do Chef apresenta um pop-up confirmando que o cadstro do Chef foi feito com sucesso.</p>
+  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/873c0e9a-1135-48bd-a33d-5ac9096d34dc)
+
+
+  
+<figure> 
+  <figcaption> Figura 5 - Tela de Confirmação de cadastro do Chef
 </figure> 
 <hr>
 
