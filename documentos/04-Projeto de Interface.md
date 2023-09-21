@@ -93,7 +93,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Meus Dados</b></h3>
+<h3><b>Tela - Dados do chef</b></h3>
 <p>A tela Meus Dados apresenta um formulário onde o Chef informará os dados dele como: nome; e-mail; telefone; senha.</p>
 
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/e4595729-523e-4f11-ba8b-73b712abe78f)
