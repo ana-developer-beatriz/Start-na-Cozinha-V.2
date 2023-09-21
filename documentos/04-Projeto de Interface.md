@@ -9,11 +9,6 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 
 Figura 1 - Fluxo de telas do usuário
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
 
 ### Protótipo de baixa fidelidade
 
@@ -93,7 +88,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Dados do chef</b></h3>
+<h3><b>Tela - Tela de Dados do chef</b></h3>
 <p>A tela Meus Dados apresenta um formulário onde o Chef informará os dados dele como: nome; e-mail; telefone; senha.</p>
 
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/e4595729-523e-4f11-ba8b-73b712abe78f)
@@ -104,6 +99,92 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
   <figcaption> Figura 8 - Tela de atualização dos dados do chef
 </figure> 
 <hr>
+
+
+<h3><b>Tela - Tela de sucesso no envio da receita</b></h3>
+<p>A tela de sucesso no envio da receita apresenta um pop-up confirmando que a receita foi enviada com sucesso e passará por avaliação antes de ser publicada.</p>
+
+![Receita sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/4381dca9-1dbd-4e5f-9ba9-6bcf57cbcc10)
+
+
+<figure> 
+  <figcaption> Figura 9 - Tela de sucesso no envio da receita
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela de login do moderador</b></h3>
+<p>A tela de login do moderador possibilita que acesse a área exclusiva para avaliação das receitas</p>
+
+![Login moderador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/5f5f5f96-6e53-4e91-baea-0353f2e6255c)
+
+
+<figure> 
+  <figcaption> Figura 10 - Tela de login do moderador
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela de aprovação/reprovação das receitas</b></h3>
+<p>A tela de aprovação/reprovação das receitas possibilita o moderador visualizar previamente as receitas para que possa aprovar ou não a sua publicação na platafroma.</p>
+
+![Aprovação e reprovação das receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fb28f40b-ad40-456a-8d03-1ae14b05e33e)
+
+
+<figure> 
+  <figcaption> Figura 11 - Tela da aprovação/reprovação das receitas
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela de visualização/avaliação da receita</b></h3>
+<p>A tela de visualização/avaliação da receita possibilita ao moderador ler o conteúdo postado pelos chefs, para que possa avaliar se irá aprovar ou reprovar a publicação.</p>
+
+![Visualização da receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/a8fe5630-419f-4571-849d-3fafb282d8d2)
+
+
+<figure> 
+  <figcaption> Figura 12 - Tela da visualização/avaliação da receita
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela menu de receitas</b></h3>
+<p>A tela de menu das receitas possibilita a pesquisa de uma receita, ingrediente ou chef, além de exibir as receitas em destaque e a listagem de receitas por categoria.</p>
+
+![Menu de receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/6d9fa442-22b6-4691-89fc-3b4b4a89b494)
+
+
+
+<figure> 
+  <figcaption> Figura 13 - Tela menu de receitas
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela da receita</b></h3>
+<p>A tela da receita exibe: foto da receita, nível de dificuldade, possibilidade de avaliação da dificuldade, nome do chef, ingredientes, modo de preparo e comentários.</p>
+
+![Receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/cffacdb1-5767-49ff-99aa-975870eeb5c4)
+
+
+<figure> 
+  <figcaption> Figura 14 - Tela da receita
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Tela de comentários da receita</b></h3>
+<p>A tela de comentários da receita possibilida postar um novo comentário e visualizar os comentários feitos por outros usuários.</p>
+
+![Comentar receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fc3bec0a-bb2d-4e89-ac72-d974366d2ca3)
+
+
+<figure> 
+  <figcaption> Figura 15 - Tela da comentários da receita
+</figure> 
+<hr>
+
 
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
