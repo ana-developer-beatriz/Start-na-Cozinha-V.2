@@ -88,7 +88,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de Dados do chef</b></h3>
+<h3><b>Tela - Dados do chef</b></h3>
 <p>A tela Meus Dados apresenta um formulário onde o Chef informará os dados dele como: nome; e-mail; telefone; senha.</p>
 
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/e4595729-523e-4f11-ba8b-73b712abe78f)
@@ -101,7 +101,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de sucesso no envio da receita</b></h3>
+<h3><b>Tela - Sucesso no envio da receita</b></h3>
 <p>A tela de sucesso no envio da receita apresenta um pop-up confirmando que a receita foi enviada com sucesso e passará por avaliação antes de ser publicada.</p>
 
 ![Receita sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/4381dca9-1dbd-4e5f-9ba9-6bcf57cbcc10)
@@ -113,7 +113,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de login do moderador</b></h3>
+<h3><b>Tela - Login do moderador</b></h3>
 <p>A tela de login do moderador possibilita que acesse a área exclusiva para avaliação das receitas</p>
 
 ![Login moderador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/5f5f5f96-6e53-4e91-baea-0353f2e6255c)
@@ -125,7 +125,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de aprovação/reprovação das receitas</b></h3>
+<h3><b>Tela - Aprovação/reprovação das receitas</b></h3>
 <p>A tela de aprovação/reprovação das receitas possibilita o moderador visualizar previamente as receitas para que possa aprovar ou não a sua publicação na platafroma.</p>
 
 ![Aprovação e reprovação das receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fb28f40b-ad40-456a-8d03-1ae14b05e33e)
@@ -137,7 +137,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de visualização/avaliação da receita</b></h3>
+<h3><b>Tela - Visualização/avaliação da receita</b></h3>
 <p>A tela de visualização/avaliação da receita possibilita ao moderador ler o conteúdo postado pelos chefs, para que possa avaliar se irá aprovar ou reprovar a publicação.</p>
 
 ![Visualização da receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/a8fe5630-419f-4571-849d-3fafb282d8d2)
@@ -149,7 +149,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela menu de receitas</b></h3>
+<h3><b>Tela - Menu de receitas</b></h3>
 <p>A tela de menu das receitas possibilita a pesquisa de uma receita, ingrediente ou chef, além de exibir as receitas em destaque e a listagem de receitas por categoria.</p>
 
 ![Menu de receitas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/6d9fa442-22b6-4691-89fc-3b4b4a89b494)
@@ -162,7 +162,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela da receita</b></h3>
+<h3><b>Tela - Receita</b></h3>
 <p>A tela da receita exibe: foto da receita, nível de dificuldade, possibilidade de avaliação da dificuldade, nome do chef, ingredientes, modo de preparo e comentários.</p>
 
 ![Receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/cffacdb1-5767-49ff-99aa-975870eeb5c4)
@@ -174,7 +174,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <hr>
 
 
-<h3><b>Tela - Tela de comentários da receita</b></h3>
+<h3><b>Tela - Comentários da receita</b></h3>
 <p>A tela de comentários da receita possibilida postar um novo comentário e visualizar os comentários feitos por outros usuários.</p>
 
 ![Comentar receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fc3bec0a-bb2d-4e89-ac72-d974366d2ca3)
