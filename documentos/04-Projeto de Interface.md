@@ -101,7 +101,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 8 - Tela de cadastro de uma nova receita
+  <figcaption> Figura 8 - Tela de atualização dos dados do chef
 </figure> 
 <hr>
 
