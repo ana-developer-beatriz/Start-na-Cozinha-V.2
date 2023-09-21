@@ -75,10 +75,35 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 5 - Tela de Confirmação de cadastro do Chef
+  <figcaption> Figura 6 - Tela de Confirmação de cadastro do Chef
 </figure> 
 <hr>
 
+
+<h3><b>Tela - Cadastre uma nova receita</b></h3>
+<p>A tela de cadastro de uma nova receita apresenta um formulário onde o Chef poderá informar o nome da receita; ingredientes; modo de preparo e tempo médio e imagem do prato.</p>
+
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/9b154837-ebee-4a56-88d2-47e743ce866e)
+
+
+  
+<figure> 
+  <figcaption> Figura 7 - Tela de cadastro de uma nova receita
+</figure> 
+<hr>
+
+
+<h3><b>Tela - Meus Dados</b></h3>
+<p>A tela Meus Dados apresenta um formulário onde o Chef informará os dados dele como: nome; e-mail; telefone; senha.</p>
+
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/e4595729-523e-4f11-ba8b-73b712abe78f)
+
+
+  
+<figure> 
+  <figcaption> Figura 8 - Tela de cadastro de uma nova receita
+</figure> 
+<hr>
 
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
