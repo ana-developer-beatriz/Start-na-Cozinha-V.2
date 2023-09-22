@@ -5,7 +5,8 @@
 
 O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse: https://marvelapp.com/prototype/a0afee5/screen/92715119.
 
-![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3255e08e-c5a2-42c8-996f-a8251dfe114d)
+![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3d5b9e00-eaae-4541-ba86-a955f6064e46)
+
 
 Figura 1 - Fluxo de telas do usuário
 
@@ -28,7 +29,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Home page</b></h3>
 A tela de home page apresenta banners que remetem para as páginas de cadastro de Chef, Receitas e uma breve descrição sobre o projeto.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/deeef62f-7069-4cbb-9f77-38a4e1e43e65)
+![Home Page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/d6ed5b28-ada0-4123-ba16-53e1fec66dd8)
+
 
 <figure> 
   <figcaption>Figura 3 - Tela home page
@@ -76,10 +78,9 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <h3><b>Tela - Cadastre uma nova receita</b></h3>
-<p>A tela de cadastro de uma nova receita apresenta um formulário onde o Chef poderá informar o nome da receita; ingredientes; modo de preparo e tempo médio e imagem do prato.</p>
+<p>A tela de cadastro de uma nova receita apresenta um formulário onde o Chef poderá informar: o nome da receita, ingredientes, modo de preparo, tempo médio de preparo, nível de dificuldade e imagem do prato.</p>
 
-  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/9b154837-ebee-4a56-88d2-47e743ce866e)
-
+![Cadastre uma nova receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fe7495ab-774e-43d6-a670-5b78ba9c84bd)
 
   
 <figure> 
@@ -104,7 +105,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <h3><b>Tela - Sucesso no envio da receita</b></h3>
 <p>A tela de sucesso no envio da receita apresenta um pop-up confirmando que a receita foi enviada com sucesso e passará por avaliação antes de ser publicada.</p>
 
-![Receita sucesso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/4381dca9-1dbd-4e5f-9ba9-6bcf57cbcc10)
+![Sucesso envio da receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/d0b0f265-2767-4396-916d-2aa4255fecd0)
 
 
 <figure> 
@@ -163,9 +164,9 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <h3><b>Tela - Receita</b></h3>
-<p>A tela da receita exibe: foto da receita, nível de dificuldade, possibilidade de avaliação da dificuldade, nome do chef, ingredientes, modo de preparo e comentários.</p>
+<p>A tela da receita exibe: foto da receita, nível de dificuldade, nome do chef, ingredientes, modo de preparo e comentários.</p>
 
-![Receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/cffacdb1-5767-49ff-99aa-975870eeb5c4)
+![Receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/1af77fd6-7048-46e7-add1-a56d5b4711b5)
 
 
 <figure> 
@@ -177,28 +178,11 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 <h3><b>Tela - Comentários da receita</b></h3>
 <p>A tela de comentários da receita possibilida postar um novo comentário e visualizar os comentários feitos por outros usuários.</p>
 
-![Comentar receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/fc3bec0a-bb2d-4e89-ac72-d974366d2ca3)
+![Comentar receita](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/862db155-cc9d-4360-9709-ecb0755f676e)
 
 
 <figure> 
   <figcaption> Figura 15 - Tela da comentários da receita
 </figure> 
 <hr>
-
-
-
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
-
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
-
-
 
