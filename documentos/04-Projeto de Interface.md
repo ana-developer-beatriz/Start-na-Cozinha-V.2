@@ -65,7 +65,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <h3><b>Tela - Confirmação de cadastro do Chef</b></h3>
-<p>A tela de Confirmação de cadastro do Chef apresenta um pop-up confirmando que o cadstro do Chef foi feito com sucesso.</p>
+<p>A tela de Confirmação de cadastro do Chef apresenta um pop-up confirmando que o cadastro do Chef foi feito com sucesso.</p>
   
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144864588/873c0e9a-1135-48bd-a33d-5ac9096d34dc)
 
@@ -182,7 +182,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 15 - Tela da comentários da receita
+  <figcaption> Figura 15 - Tela de comentários da receita
 </figure> 
 <hr>
 
