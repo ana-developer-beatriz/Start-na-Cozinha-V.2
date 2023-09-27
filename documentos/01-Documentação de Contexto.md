@@ -8,8 +8,7 @@ De forma geral, buscar uma alimentação mais rápida e prática nem sempre ser�
 
 ## Problema
 
-O principal problema que buscamos minimizar com o projeto é a falta de conhecimento no preparo de refeições. As pessoas que não sabem cozinhar precisam de orientações e às vezes não têm a quem recorrer.a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O principal problema que buscamos minimizar com o projeto é a falta de conhecimento no preparo de refeições. As pessoas que não sabem cozinhar precisam de orientações e às vezes não têm a quem recorrer.
 
 ## Objetivos
 
