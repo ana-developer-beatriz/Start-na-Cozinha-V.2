@@ -58,8 +58,6 @@
 </table>
 ## Histórias de Usuários
 
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
 | Aprendiz           | Aprender a cozinhar sozinha|Ter 100% de independência dos meus pais|
