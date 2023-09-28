@@ -3,17 +3,17 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse: https://marvelapp.com/prototype/a0afee5/screen/92715119.
+O fluxograma apresentado na figura 3 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse: https://marvelapp.com/prototype/a0afee5/screen/92715119.
 
 ![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3d5b9e00-eaae-4541-ba86-a955f6064e46)
 
 
-Figura 1 - Fluxo de telas do usuário
+Figura 3 - Fluxo de telas do usuário
 
 
 ### Protótipo de baixa fidelidade
 
-As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 4. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
 <ul>
   <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
   <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
@@ -22,7 +22,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <figure> 
 <img src="https://marvel-live.freetls.fastly.net/serve/2023/9/b6cf4804a8d34129ab50ea5335ccb852.png?quality=95&fake=.png"
- <figcaption> Figura 2 - Estrutura padrão do site
+ <figcaption> Figura 4 - Estrutura padrão do site
 </figure> 
 <hr>
 
@@ -33,7 +33,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption>Figura 3 - Tela home page
+  <figcaption>Figura 5 - Tela home page
 </figure> 
 <hr>
 
@@ -46,7 +46,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 4 - Tela de Login do Chef
+  <figcaption> Figura 6 - Tela de Login do Chef
 </figure> 
 <hr>
 
@@ -59,7 +59,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 5 - Tela de Cadastro do Chef
+  <figcaption> Figura 7 - Tela de Cadastro do Chef
 </figure> 
 <hr>
 
@@ -72,7 +72,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 6 - Tela de Confirmação de cadastro do Chef
+  <figcaption> Figura 8 - Tela de Confirmação de cadastro do Chef
 </figure> 
 <hr>
 
@@ -84,7 +84,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 7 - Tela de cadastro de uma nova receita
+  <figcaption> Figura 9 - Tela de cadastro de uma nova receita
 </figure> 
 <hr>
 
@@ -97,7 +97,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
   
 <figure> 
-  <figcaption> Figura 8 - Tela de atualização dos dados do chef
+  <figcaption> Figura 10 - Tela de atualização dos dados do chef
 </figure> 
 <hr>
 
@@ -109,7 +109,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 9 - Tela de sucesso no envio da receita
+  <figcaption> Figura 11 - Tela de sucesso no envio da receita
 </figure> 
 <hr>
 
@@ -121,7 +121,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 10 - Tela de login do moderador
+  <figcaption> Figura 12 - Tela de login do moderador
 </figure> 
 <hr>
 
@@ -133,7 +133,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 11 - Tela da aprovação/reprovação das receitas
+  <figcaption> Figura 13 - Tela da aprovação/reprovação das receitas
 </figure> 
 <hr>
 
@@ -145,7 +145,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 12 - Tela da visualização/avaliação da receita
+  <figcaption> Figura 14 - Tela da visualização/avaliação da receita
 </figure> 
 <hr>
 
@@ -158,7 +158,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 13 - Tela menu de receitas
+  <figcaption> Figura 15 - Tela menu de receitas
 </figure> 
 <hr>
 
@@ -170,7 +170,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 14 - Tela da receita
+  <figcaption> Figura 16 - Tela da receita
 </figure> 
 <hr>
 
@@ -182,7 +182,7 @@ A tela de home page apresenta banners que remetem para as páginas de cadastro d
 
 
 <figure> 
-  <figcaption> Figura 15 - Tela de comentários da receita
+  <figcaption> Figura 17 - Tela de comentários da receita
 </figure> 
 <hr>
 
