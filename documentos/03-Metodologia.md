@@ -18,7 +18,7 @@ A organização da equipe se dará da seguinte forma:
 
 ### Processo
 
-Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estruturar as seguintes listas para acompanhamento:
+Pensando em melhor organizar as tarefas utilizamos o Projects do GitHub e optamos por estruturar as seguintes listas para acompanhamento:
 
 - Backlog do produto: lista que identifica todas as tarefas a serem executadas;
 - A Fazer: lista que apresenta os itens que compõem o Sprint Backlog em execução;
