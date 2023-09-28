@@ -10,7 +10,6 @@ Desenvolvimento de uma aplicação web que possibilite disponibilização de rec
 
 ## Integrantes
 
-* Alvacy Pereira Silva Junior
 * Ana Beatriz Araújo Brandão
 * Caio Slaviero da Cunha
 * Clarence Silva Aguiar
