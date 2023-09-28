@@ -12,7 +12,7 @@ A organização da equipe se dará da seguinte forma:
 <ul>
   <li>Scrum Master: Clarence Silva Aguiar;</li>
   <li>Product Owner: Ana Beatriz;</li>
-  <li>Equipe de Desenvolvimento: Alvacy Pereira Silva Junior, Ana Beatriz Araújo Brandão, Caio Slaviero da Cunha, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;</li>
+  <li>Equipe de Desenvolvimento: Ana Beatriz Araújo Brandão, Caio Slaviero da Cunha, Clarence Silva Aguiar, Estevão Cota da Fonseca, Gabriel de Oliveira Mendonça;</li>
   <li>Equipe de Design: Caio Slaviero da Cunha e Estevão Cota da Fonseca.</li>
 </ul>
 
