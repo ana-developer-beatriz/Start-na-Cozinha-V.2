@@ -20,12 +20,12 @@ A organização da equipe se dará da seguinte forma:
 
 Pensando em melhor organizar as tarefas utilizamos o GitHub e optamos por estruturar as seguintes listas para acompanhamento:
 
-- Backlog do produto: lista que identifica todas as tarefas a serem executadas.
-- A Fazer: lista que apresenta os itens que compõem o Sprint Backlog em execução.
-- Em Andamento: lista que identifica as tarefas em execução no momento.
+- Backlog do produto: lista que identifica todas as tarefas a serem executadas;
+- A Fazer: lista que apresenta os itens que compõem o Sprint Backlog em execução;
+- Em Andamento: lista que identifica as tarefas em execução no momento;
 - Finalizado: lista que representa os itens concluídos e testados, aprovados para entrega ao cliente.
 
-Abaixo um demosntrativo do Kanban estruturado para acompanhamento das atividades:
+Abaixo um demonstrativo atual do Kanban estruturado para acompanhamento das atividades:
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/880349197fc761f65113eb46244cca68788a6abb/documentos/img/kanban_projeto_ads.jpeg"
