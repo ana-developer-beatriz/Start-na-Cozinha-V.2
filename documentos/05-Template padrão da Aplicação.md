@@ -14,6 +14,8 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 Para a criação do logotipo do site foi utilizada a cor preta com fundo branco para manter uma imagem mais limpa e contrastada. A utilização de um chapéu de cozinheiro e um livro, dando a idéia de um livro de receitas.
 
+<img src="img/Logo.png">
+
 Figura XX - Logotipo da aplicação web Start na Cozinha
 
 [Apresente a estrutura padrão da sua aplicação.]
