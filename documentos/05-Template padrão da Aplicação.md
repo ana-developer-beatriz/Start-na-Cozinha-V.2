@@ -10,7 +10,7 @@ Cores: RGB: #BFDBF7, #49A078 e white; <br>
 Font-family: Montserrate, arial e sans-serif; <br>
 Fonte-size: 30px e 15px.
 
-O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="documentos/img">aqui</a> . As imagens e ícones utilizados no projeto estão disponíveis aqui .
+O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="[documentos/img](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/main/documentos/img)">aqui</a> . As imagens e ícones utilizados no projeto estão disponíveis aqui .
 
 Para a criação do logotipo do site foi utilizada a cor preta com fundo branco para manter uma imagem mais limpa e contrastada. A utilização de um chapéu de cozinheiro e um livro, dando a idéia de um livro de receitas.
 
