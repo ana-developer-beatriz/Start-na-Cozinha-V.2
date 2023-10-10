@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil: Pessoas interessadas em aprender </th>
+<th colspan="2">Perfil: Aprendiz </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
