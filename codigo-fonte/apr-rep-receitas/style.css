@@ -1,0 +1,147 @@
+/*PROPRIEDADES PADRÃO*/
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #BFDBF7;
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-family: cursive;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+    margin-left: 20px;
+    max-width: 100px;
+    padding: 10px;
+}
+
+.logo span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+a {
+    color: #49A078;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+/*CONTEUDO PRINCIPAL*/
+
+.blocks {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 30px;
+    margin: 10px;
+    height: 130px;
+}
+.block1 div{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.block1 button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+.block1 button:hover{
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+}
+.block1 img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px;
+}
+table{
+    background-color: #f0f0f0;
+    border-collapse: collapse;
+    margin-top: 30px;
+    width: 600px;
+}
+tr, td, th{
+    border: 1px solid #000;
+    text-align: start;
+    padding: 7px;
+}
+#td-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+#td-icons a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#td-icons img{
+    width: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #BFDBF7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
