@@ -1,0 +1,136 @@
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  header {
+    background-color:  #BFDBF7;
+    padding: 10px 0;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-family: Montserrate;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  .logo span {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  a {
+    color:  #49A078 ;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    
+  }
+  
+  .logo img {
+    max-width: 100px;
+    padding: 10px;
+  }
+  
+  .main {
+    text-align: center;
+    padding: 80px 600px 80px;
+  }
+     
+  .block {
+    background-color: #fff;
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .block img {
+    max-width: 40px;
+    display: block;
+    margin: 10px;
+    text-align: left;
+  }
+
+  .form {
+    padding: 10px 200px;
+  }
+
+  #FormNome {
+    height: 40px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+  #FormEmail {
+    height: 40px;
+    width: 250px;
+}
+
+  #FormTelefone {
+    height: 40px;
+    width: 250px;
+}
+
+  #FormSenhaAtual {
+    height: 40px;
+    width: 250px;
+}
+
+  #FormNovaSenha {
+    height: 40px;
+    width: 250px;
+}
+
+  #FormConfirmacaoSenha {
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+  
+  .button {
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 90px;
+    margin: 5px;
+    display:inline-block;
+  }
+
+  footer {
+    background-color: #BFDBF7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+  }
