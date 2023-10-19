@@ -97,20 +97,11 @@ body, h1, h2, ul, li {
     width: 250px;
   }
   
-  .button1 {
+  .button {
     background-color: #333;
     color: #fff;
     letter-spacing: 2px;
     padding: 10px 105px;
-    margin: 5px;
-    display:inline-block;
-  }
-
-  .button2 {
-    background-color: #69b4ff;
-    color: #fff;
-    letter-spacing: 2px;
-    padding: 10px 80px;
     margin: 5px;
     display:inline-block;
   }
