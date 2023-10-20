@@ -44,6 +44,7 @@ body, h1, h2, ul, li {
     color:  #49A078 ;
     text-decoration: none;
     transition: 0.3s;
+    display: contents;
   }
   
   a:hover {
@@ -104,6 +105,10 @@ body, h1, h2, ul, li {
     padding: 10px 105px;
     margin: 5px;
     display:inline-block;
+  }
+
+  .resetSenha {
+    color: black
   }
 
   .button2 {
