@@ -2,10 +2,12 @@ body, h1, h2, ul, li {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color:  #BFDBF7;
   padding: 10px 0;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -44,9 +46,7 @@ a:hover {
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-  
-}
-
+  }
 
 .logo img {
   max-width: 100px;
@@ -60,7 +60,6 @@ body {
 
 h1 {
   font-size: 36px;
-  
 }
 
 .blocks {
@@ -71,7 +70,6 @@ h1 {
   margin-top: 20px;
 }
  
-
 .block {
   background-color: #fff;
   padding: 60px;
@@ -80,8 +78,7 @@ h1 {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
- 
-}
+ }
 
 .block img {
   max-width: 100px;
@@ -90,11 +87,11 @@ h1 {
   text-align: center;
 }
 .list{
-      
-      max-width: 100px;
-      display: block;
-      padding: 50px; 
+  max-width: 100px;
+  display: block;
+  padding: 50px; 
 }
+
 footer {
   background-color: #BFDBF7;
   color: #fff;
@@ -109,8 +106,8 @@ button {
   border: none;
   cursor: pointer;
   letter-spacing: 2px;
-  
 }
+
 ul {
   list-style-type: none;
 }
@@ -130,7 +127,7 @@ li {
 }
 
 .sobre-texto {
-  color: white;
+  color: rgb(97, 85, 85);
   text-align: center;
   margin-top: 20px; 
 }
@@ -141,9 +138,10 @@ li {
   justify-content: center;
   align-items: center;
 }
+
 .titulo {
   font-size: 1.5rem;
-  color: white;
+  color: rgb(97, 85, 85);
   text-align: center;
   margin-bottom: 2rem;
 }
