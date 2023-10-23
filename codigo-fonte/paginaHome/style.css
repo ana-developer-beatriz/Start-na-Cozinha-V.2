@@ -65,7 +65,7 @@ h1 {
 .blocks {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; 
+  align-items: center; 
   flex-wrap: wrap;
   margin-top: 20px;
 }
@@ -95,8 +95,23 @@ h1 {
 footer {
   background-color: #BFDBF7;
   color: #fff;
-  text-align: center;
   padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+width: 10%;
+}
+
+.copy {
+  text-align: center;
+  width: 80%;
+}
+
+.modicon {
+  width: 10%;
+  text-align: right;
 }
 
 button {
@@ -144,4 +159,8 @@ li {
   color: rgb(97, 85, 85);
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.modicon img {
+width: 50px;
 }
