@@ -1,6 +1,6 @@
 body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
   }
 
   h1 {
@@ -64,12 +64,12 @@ body, h1, h2, ul, li {
   
   .main {
     text-align: center;
-    padding: 160px 600px 150px;
+    padding: 8% 30%;
   }
      
   .block {
     background-color: #fff;
-    width: 700px;
+    width: 100%;
     height: 450px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -78,22 +78,22 @@ body, h1, h2, ul, li {
   }
   
   .block img {
-    max-width: 40px;
+    max-width: 5%;
     display: block;
-    margin: 10px;
+    margin: 1%;
     text-align: left;
   }
 
   .form {
-    padding: 10px 200px;
+    margin: 1% 33%;
   }
 
-  #FormEmail2 {
+  #FormEmail {
     height: 40px;
     width: 250px;
   }
 
-  #FormPassword2 {
+  #FormPassword {
     height: 40px;
     width: 250px;
   }
@@ -109,6 +109,7 @@ body, h1, h2, ul, li {
 
   .resetSenha {
     color: black
+    
   }
 
   .button2 {
