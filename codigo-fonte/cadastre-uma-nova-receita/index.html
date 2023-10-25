@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start na cozinha</title>
     <meta name="author" content="Grupo 4">
     <meta name="description" content="Start na cozinha">
     <meta name="keywords" content="Puc, Projeto, ADS">
@@ -21,40 +21,45 @@
             </div>
         </nav>
     </header>
-    
-    <main class="main">
+
+    <Main>
 
         <div class="blocks">
             <div class="block1">
-                <h2>Olá, (nome do usuário)</h2>
-                <button class="botao">Meus Dados</button>
-                <br>
-                <button class="botao">Sair</button>
+                <div>
+                    <h2>Olá, (nome do usuário)</h2>
+                </div>
+                <button>
+                    <img src="../img/icon_user.png" alt="">
+                    <p>Meus dados</p>
+                </button>
+                <button>
+                    <img src="../img/icon_exit.png" alt="">
+                    <p>Sair</p>
+                </button>
             </div>
 
+            <div class="block2">
 
-            <div class="block">
-                <div class=block2>
-                    <img src="../img/icon_confirmation.png" alt="Receitas">
-                 
-                    <ul>
-                        <li><a href="">Receita 1</a></li>
-                        <li><a href="">Receita 2</a></li>
-                        <li><a href="">Receita 3</a></li>
-           
-                       
-                    </ul>
+                <div class="form">
+                    <br/>
+                    <h2>Cadastre uma nova receita</h2>
+                    <br/>
+                    <input type="Título da receita" class="form-control" id="Titulodareceita" placeholder="Título da Receita">
+                    <br/>
+                    <h3> Ingredientes</h3>
+                    <br/>
+                    <input type="itens" class="form-control" id="itens" placeholder="1- <br/> 2- <br/>">
+                    <br/>
                 </div>
-                
-                <button>Ver todas as receitas</button>
+
             </div>
         </div>
-    </main>
-    
-    
-    <footer >
+
+    </Main>
+
+    <footer>
         <p> Copyright 2023 - Todos os direitos reservados.</p>
     </footer>
 </body>
-
 </html>

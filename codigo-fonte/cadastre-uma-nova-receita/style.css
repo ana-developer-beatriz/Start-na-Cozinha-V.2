@@ -1,183 +1,139 @@
+/*PROPRIEDADES PADRÃO*/
+
 body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color:  #BFDBF7;
-    padding: 10px 0;
-  }
-  .logo {
-    display: flex;
-    align-items: center;
-    font-size: 28px;
-    font-family: cursive;
-  }
-  
-  .logo a {
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-   
-  .logo span {
-    font-size: 10px;
-    font-weight: bold;
-  }
-  
-  a {
-    color:  #49A078 ;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-
-  label {
-    /* Uniform size & alignment */
-    display: blocks;
-    width: 9%;
-    text-align: right;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    
-  }
-  
-  
-  .logo img {
-    max-width: 100px;
-    padding: 10px;
-  }
-  
-  .main {
-    text-align: left;
-    padding: 20px;
-    font-size: 15px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    
-  }
-  
-  .blocks {
-    display: flex;
-    justify-content: left;
-    align-items: start; 
-    flex-wrap: wrap;
-    margin-top: 20px;
-    background-color: opace;
-    padding: 60px;
-    margin: 10px;
-    border: 0;
-    border-radius: 0;
-    box-shadow: 0;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .block1 {
-    background-color: #fff;
-    padding: 60px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    justify-content: left;
-    text-align: left;
-   
-.botao  {
-    background-color: #fff;
-    padding: 10px;
-    margin: 1px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
-  }
-  
-  .block2 {
-    background-color: #fff;
-    padding: 60px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    text-align: center;
-   
-  }
-  
-  .block img {
-    max-width: 100px;
-    display: block;
-    margin: 10px;
-    text-align: center;
-  }
-  .list{
-        
-        max-width: 100px;
-        display: block;
-        padding: 50px; 
-  }
-  footer {
-    background-color: #BFDBF7;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0px;
-  }
-  
-  button {
-    background-color: #fff;
-    color: #333;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 1em
-    cursor: pointer;
-    letter-spacing: 2px;
-    
-  }
-  ul {
-    list-style-type: none;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .under-main {
-    width: 67%;
-    background-color: #BFDBF7;
-    margin: 0 auto; 
-    padding: 20px; 
-    max-width: 1200px;
-    margin-bottom: 30px;
-  }
-  
-  .sobre-texto {
-    color: white;
-    text-align: center;
-    margin-top: 20px; 
-  }
-  
-  #div-sobre-conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .titulo {
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+header {
+  background-color: #BFDBF7;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-family: cursive;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  margin-left: 20px;
+  max-width: 100px;
+  padding: 10px;
+}
+
+.logo span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+a {
+  color: #49A078;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+/*CONTEUDO PRINCIPAL*/
+
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 0px 0px;
+  margin: 10px;
+  width: 250px;
+  height: 100px;
+}
+.block1 div{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.block1 button{
+  display: flex;
+  width: 250px;
+  height: 30px;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 2px;
+
+}
+.block1 button:hover{
+  padding: 0px 0px;
+  background-color: #f0f0f0;
+}
+.block1 img{
+  width: 20px;
+  margin-right: 20px;
+}
+
+
+
+.form {
+  padding: 10px 200px;
+}
+
+#Titulodareceita {
+  height: 25px;
+  width: 250px;
+  box-align: center;
+}
+
+#Itens {
+  height: 25px;
+  width: 250px;
+  box-align: center;
+}
+
+footer {
+  background-color: #BFDBF7;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
