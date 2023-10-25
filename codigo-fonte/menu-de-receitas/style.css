@@ -1,0 +1,273 @@
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  background-color:  #BFDBF7;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-family: cursive;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.logo span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+a {
+  color:  #49A078 ;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  }
+
+.logo img {
+  max-width: 100px;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+ 
+.block {
+  background-color: #fff;
+  padding: 60px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+ }
+
+.block img {
+  max-width: 100px;
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+.list{
+  max-width: 100px;
+  display: block;
+  padding: 50px; 
+}
+
+footer {
+  background-color: #BFDBF7;
+  color: #fff;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+width: 10%;
+}
+
+.copy {
+  text-align: center;
+  width: 80%;
+}
+
+.modicon {
+  width: 10%;
+  text-align: right;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.under-main {
+  width: 67%;
+  background-color: #BFDBF7;
+  margin: 0 auto; 
+  padding: 20px; 
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.sobre-texto {
+  color: rgb(97, 85, 85);
+  text-align: center;
+  margin-top: 20px; 
+}
+
+#div-sobre-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  color: rgb(97, 85, 85);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.modicon img {
+width: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.search-container {
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+/* Ajuste Responsivo para Barra de Pesquisa */
+@media screen and (max-width: 800px) {
+  .search-container {
+    padding: 10px;
+  }
+}
+
+.search-input {
+  width: 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 20px 20px;
+  border: none;
+
+  background-color: #49A078;
+  color: white;
+  cursor: pointer;
+}
+
+
+.recipe-bar {
+  background-color: #BFDBF7;
+  display: flex;
+  flex-wrap: wrap; /* Adicionado para permitir que os itens quebrem para a linha seguinte */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+/* Ajuste Responsivo para Barra de Receitas */
+@media screen and (max-width: 800px) {
+  .recipe-bar {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+/* Receita */
+.recipe {
+  margin: 0 10px;
+  text-align: center;
+  flex: 1; /* Faz com que as receitas ocupem a largura disponível */
+}
+
+.recipe img {
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+.dropdown-bar {
+  background-color: #BFDBF7;
+  display: flex;
+  flex-wrap: wrap; /* Adicionado para permitir que os itens quebrem para a linha seguinte */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.dropdown {
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.dropdown select {
+  padding: 20px;
+  border: none;
+
+  width: 200px;
+}
+.container-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #fff;
+}
