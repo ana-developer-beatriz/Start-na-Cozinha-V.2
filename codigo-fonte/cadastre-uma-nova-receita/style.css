@@ -37,8 +37,9 @@ header {
 }
 
 a {
-  color: #49A078;
+  color: #f0f0f0;
   text-decoration: none;
+  text-align: center;
   transition: 0.3s;
 }
 
@@ -65,6 +66,10 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
+}
+
+p1 {
+  color:#f0f0f0
 }
 
 /*CONTEUDO PRINCIPAL*/
@@ -132,8 +137,8 @@ h3 {
 .block2 button1{
   display: flex;
   width: 350px;
-  height: 50px;
-  align-items: center;
+  height: 40px;
+  align-items: right;
   text-decoration: none;
   padding: 5px 10px;
   border: 1px solid #000;
@@ -149,7 +154,7 @@ h3 {
 .block2 button2{
   display: flex;
   width: 350px;
-  height: 100px;
+  height: 80px;
   align-items: top;
   text-decoration: none;
   padding: 5px 10px;
@@ -164,10 +169,27 @@ h3 {
 }
 
 .block2 img{
-  width: 20px;
-  margin-right: 20px;
+  width: 35px;
+  margin-left: 220px;
 }
 
+.block2 button3{
+  display: flex;
+  width: 350px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  background-color: #000;
+  border-radius: 2px;
+}
+
+.block2 button3:hover{
+  padding: 0px 0px;
+  background-color: #000;
+}
 
 footer {
   background-color: #BFDBF7;
