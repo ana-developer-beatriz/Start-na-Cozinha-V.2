@@ -67,10 +67,8 @@ footer {
     background-color: #BFDBF7;
     color: #fff;
     text-align: center;
-    padding: 20px 0px;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
 }
 
 button {
@@ -93,6 +91,8 @@ li {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   }
 
 div.col1 img.back {
@@ -111,22 +111,24 @@ div.inforec img {
 .col1 {
   background-color: azure;
   opacity: 0.7;
-  padding: 1%;
   display: flex;
   flex-direction: column;
   width: 30%;
   align-items: start;
+  justify-content: center;
+  padding: 5px;
 }
 
 .col2 {
   background-color: lightgray;
   opacity: 0.7;
-  padding: 1%;
   text-align: center;
   display: flex;
   flex-direction: column;
   width: 20%;
   padding-top: 100px;
+  justify-content: center;
+  padding: 5px 0 5px 0;
 }
 
 div.col2 ol {
@@ -136,12 +138,13 @@ div.col2 ol {
 .col3 {
   background-color: burlywood;
   opacity: 0.7;
-  padding: 1%;
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 48%;
   padding-top: 100px;
+  justify-content: center;
+  padding: 5px;
 }
 
 .mdpreparo {
