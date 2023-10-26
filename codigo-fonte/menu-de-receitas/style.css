@@ -1,6 +1,7 @@
 body, h1, h2, ul, li {
   margin: 0;
   padding: 0;
+  
 }
 
 header {
@@ -163,4 +164,110 @@ li {
 
 .modicon img {
 width: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.search-container {
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+/* Ajuste Responsivo para Barra de Pesquisa */
+@media screen and (max-width: 800px) {
+  .search-container {
+    padding: 10px;
+  }
+}
+
+.search-input {
+  width: 20%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 20px 20px;
+  border: none;
+
+  background-color: #49A078;
+  color: white;
+  cursor: pointer;
+}
+
+
+.recipe-bar {
+  background-color: #BFDBF7;
+  display: flex;
+  flex-wrap: wrap; /* Adicionado para permitir que os itens quebrem para a linha seguinte */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+/* Ajuste Responsivo para Barra de Receitas */
+@media screen and (max-width: 800px) {
+  .recipe-bar {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+/* Receita */
+.recipe {
+  margin: 0 10px;
+  text-align: center;
+  flex: 1; /* Faz com que as receitas ocupem a largura disponível */
+}
+
+.recipe img {
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+.dropdown-bar {
+  background-color: #BFDBF7;
+  display: flex;
+  flex-wrap: wrap; /* Adicionado para permitir que os itens quebrem para a linha seguinte */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.dropdown {
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.dropdown select {
+  padding: 20px;
+  border: none;
+
+  width: 200px;
+}
+.container-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: black;
 }
