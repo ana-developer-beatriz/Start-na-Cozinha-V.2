@@ -154,13 +154,15 @@ th {
 #abrir-modal{
     background-color: #f0f0f0;
     border: none;
-    background-image: url("../img/icon_lupa.png");
-    width: 20px;
+}
+#abrir-modal:hover{
+    cursor: pointer;
 }
 dialog{
     max-width: 90%;
     border-radius: 10px;
     background-color: #f0f0f0;
+    justify-content: center;
 }
 .detalhe-receitas{
     display: grid;
@@ -175,6 +177,13 @@ dialog{
 }
 .detalhe-receitas img{
     width: 20px;
+}
+#close {
+    width: 20px;
+    border: none;
+}
+#close:hover{
+    cursor: pointer;
 }
 /*FOOTER*/
 
