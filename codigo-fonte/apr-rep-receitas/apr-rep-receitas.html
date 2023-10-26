@@ -45,7 +45,41 @@
                             <td>Título da receita</td>
                             <td>Nome do chef</td>
                             <td id="td-icons">
-                                <a href="#"><img src="../img/icon_lupa.png" alt=""></a>
+                                <button id="abrir-modal">
+                                    <img src="../img/icon_lupa.png" alt="">
+                                    <dialog>
+                                        <div class="detalhe-receitas">
+                                            <div>
+                                                <h2>Nome da Receita</h2>
+                                                <div class="img-area"></div>
+                                                <div class="t-preparo"><img src="../img/icon_timer.png" alt="">Tempo de preparo</div>
+                                                <div class="dificuldade"><img src="../img/icon_fryingpan.png" alt="">Dificuldade</div>
+                                                <div class="chef-name"><img src="../img/icon_chef.png" alt="">Nome do chef</div>
+                                            </div>
+                                            <div>
+                                                <h2>Ingredientes</h2>
+                                                <div class="lista-ingredientes">
+                                                    <ol>
+                                                        <li>Item 1</li>
+                                                        <li>Item 2</li>
+                                                        <li>Item 3</li>
+                                                        <li>Item 4</li>
+                                                        <li>Item 5</li>
+                                                        <li>Item 6</li>
+                                                        <li>Item 7</li>
+                                                        <li>Item 8</li>
+                                                        <li>Item 9</li>
+                                                        <li>Item 10</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h2>Modo de preparo</h2>
+                                                <div class="text-area">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam asperiores quod officiis eius earum ratione facere illum possimus itaque recusandae ipsam voluptatum nihil, facilis culpa saepe blanditiis neque magni.</div>
+                                            </div>
+                                        </div>
+                                    </dialog>
+                                </button>
                                 <a href="#"><img src="../img/icon_check.png" alt=""></a>
                                 <a href="#"><img src="../img/icon_deny.png" alt=""></a>
                             </td>
@@ -76,5 +110,7 @@
     <footer>
         <p> Copyright 2023 - Todos os direitos reservados.</p>
     </footer>
+
+    <script src="apr-rep-receitas.js"></script>
 </body>
 </html>

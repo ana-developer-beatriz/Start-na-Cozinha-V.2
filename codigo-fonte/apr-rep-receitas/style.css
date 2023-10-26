@@ -1,6 +1,10 @@
 /*PROPRIEDADES PADRÃO*/
 
-body, h1, h2, ul, li {
+body,
+h1,
+h2,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -60,6 +64,7 @@ body {
 h1 {
     font-size: 36px;
 }
+
 /*CONTEUDO PRINCIPAL*/
 
 .blocks {
@@ -77,11 +82,13 @@ h1 {
     margin: 10px;
     height: 130px;
 }
-.block1 div{
+
+.block1 div {
     padding: 10px;
     margin-bottom: 15px;
 }
-.block1 button{
+
+.block1 button {
     display: flex;
     width: 100%;
     align-items: center;
@@ -92,11 +99,13 @@ h1 {
     border-radius: 2px;
 
 }
-.block1 button:hover{
+
+.block1 button:hover {
     padding: 5px 10px;
     background-color: #f0f0f0;
 }
-.block1 img{
+
+.block1 img {
     width: 30px;
     margin-right: 20px;
 }
@@ -108,32 +117,65 @@ h1 {
     justify-content: center;
     padding: 10px 30px;
 }
-table{
+
+table {
     background-color: #f0f0f0;
     border-collapse: collapse;
     margin-top: 30px;
     width: 600px;
 }
-tr, td, th{
+
+tr,
+td,
+th {
     border: 1px solid #000;
     text-align: start;
     padding: 7px;
 }
-#td-icons{
+
+#td-icons {
     display: flex;
     align-items: center;
     justify-content: center;
     border: 0;
 }
-#td-icons a{
+
+#td-icons a {
     text-decoration: none;
     padding-right: 10px;
     padding-left: 10px;
 }
-#td-icons img{
+
+#td-icons img {
     width: 25px;
 }
 
+/*MODAL*/
+#abrir-modal{
+    background-color: #f0f0f0;
+    border: none;
+    background-image: url("../img/icon_lupa.png");
+    width: 20px;
+}
+dialog{
+    max-width: 90%;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+.detalhe-receitas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.detalhe-receitas div{
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+.detalhe-receitas img{
+    width: 20px;
+}
 /*FOOTER*/
 
 footer {
