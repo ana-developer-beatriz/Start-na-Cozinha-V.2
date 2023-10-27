@@ -14,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   font-size: 28px;
-  font-family: cursive;
+  font-family: Montserrate, arial, sans-serif;
 }
 
 .logo a {
@@ -32,7 +32,7 @@ header {
 }
 
 .logo span {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -50,25 +50,26 @@ a:hover {
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-
 }
 
 .main {
-  text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
+  margin: 20px 0px 10px 0px;
 }
 
 h3 {
   font-size: 20px;
   text-align: center;
+  margin: 15px 30px 5px 30px;
 }
 
 p1 {
+  text-align: center;
   color:#f0f0f0
 }
 
@@ -87,20 +88,22 @@ p1 {
   background-color: #fff;
   padding: 0px 0px;
   margin: 10px;
-  width: 300px;
-  height: 100px;
+  width: 350px;
+  height: 185px;
+  object-fit: contain;
 }
 
 .block1 div{
-  padding: 10px;
+  padding: 0px;
   margin-bottom: 15px;
+  align-items: down;
 }
 
 .block1 button{
   display: flex;
-  width: 300px;
+  width: 350px;
   height: 50px;
-  align-items: center;
+  align-items: baseline;
   text-decoration: none;
   padding: 5px 10px;
   border: 1px solid #000;
@@ -115,7 +118,7 @@ p1 {
 
 .block1 img{
   width: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .block2 {
@@ -125,8 +128,9 @@ p1 {
   background-color: opache;
   padding: 0px 0px;
   margin: 0px;
-  width: 350px;
+  width: 500px;
   height: 700px;
+  object-fit: contain;
 }
 
 .block2 div{
@@ -136,11 +140,11 @@ p1 {
 
 .block2 button1{
   display: flex;
-  width: 350px;
+  width: 500px;
   height: 40px;
   align-items: right;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 5px;
   border: 1px solid #000;
   background-color: opache;
   border-radius: 2px;
@@ -153,11 +157,11 @@ p1 {
 
 .block2 button2{
   display: flex;
-  width: 350px;
+  width: 500px;
   height: 80px;
-  align-items: top;
+  align-items: left;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 5px;
   border: 1px solid #000;
   background-color: opache;
   border-radius: 2px;
@@ -170,17 +174,17 @@ p1 {
 
 .block2 img{
   width: 35px;
-  margin-left: 220px;
+  margin-left: 350px;
 }
 
 .block2 button3{
   display: flex;
-  width: 350px;
+  width: 500px;
   height: 40px;
   align-items: center;
   text-align: center;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 5px;
   border: 1px solid #000;
   background-color: #000;
   border-radius: 2px;

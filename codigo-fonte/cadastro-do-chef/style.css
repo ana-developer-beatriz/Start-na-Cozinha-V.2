@@ -20,8 +20,8 @@ body, h1, h2, ul, li {
   .logo {
     display: flex;
     align-items: center;
-    font-size: 28px;
-    font-family: Montserrate;
+    font-size: 30px;
+    font-family: Montserrate, arial, sans serif;
   }
   
   .logo a {
@@ -38,7 +38,7 @@ body, h1, h2, ul, li {
   }
   
   .logo span {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
   }
   
