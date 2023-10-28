@@ -8,18 +8,22 @@ Exemplo da tela de Menu de Receitas:
 
 ![Tela menu de receitas](../codigo-fonte/img/print_tela_menu_de_receitas.png)
 
+Figura 22 - Tela "Menu de Receitas"
+
 O acesso à tela de cadastro poderá ser feito através do botão “Ver todas as receitas”, na "Home Page". As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 
 #### Requisito atendido
 
 RF-01: A aplicação deve conter uma barra de pesquisa, onde o usuário poderá pesquisar receitas.
+
 RF-02: A aplicação deve conter filtros onde o usuário poderá pesquisar a receita por ingredientes.
 
 
 #### Artefatos da funcionalidade
 
 ● menuDeReceitas.html
+
 ● menuDeReceitasStyle.css
 
 
@@ -46,17 +50,23 @@ Exemplo da tela de Login do Chef:
 
 ![Tela login do chef](../codigo-fonte/img/print_tela_login_chef.png)
 
+Figura 23 - Tela "Login do Chef"
+
 O acesso à tela de login do chef poderá ser feito através da opção “Área do Chef”, contida na "Home Page" do site. As entradas de dados foram baseadas em HTML e CSS.
 
 Exemplo da tela de Cadastro do Chef:
 
-![Tela cadastro do chef](../codigo-fonte/img/print_tela_cadastro_chef.jpg)
+![Tela cadastro do chef](../codigo-fonte/img/print_tela_cadastro_chef.png)
+
+Figura 24 - Tela "Cadastro do Chef"
 
 O acesso a tela de “Cadastro do Chef” poderá ser feito após o Chef acessar a “Home Page” e clicar na opção “Área do Chef” que o direcionará a tela “Login do Chef”, onde, por não possuir ainda uma conta, deverá clicar em “Criar conta”. Daqui será direcionado a esta tela de cadastro. Caso desista de se cadastrar, poderá clicar na seta localizada no canto superior esquerdo e retornar à “Home Page”. Ao final, será apresentado um modal de confirmação de cadastro. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 Exemplo da tela de Cadastre uma Nova Receita:
 
-![Tela cadastre uma nova receita](../codigo-fonte/img/print_tela_cadastro_receita.jpg)
+![Tela cadastre uma nova receita](../codigo-fonte/img/print_tela_cadastro_receita.png)
+
+Figura 25 - Tela "Cadastre uma Nova Receita"
 
 O acesso à tela de “Cadastre uma Nova Receita” ocorrerá após o Chef efetuar o login da conta dele na tela “Login do Chef”. Nela, o Chef poderá cadastrar uma nova receita informando o título da receita; os ingredientes; o modo de preparo; o tempo médio de preparo; o nível de dificuldade e poderá ainda anexar uma foto. Isto feito, as informações serão encaminhadas para a tela “Visualização/avaliação da receita”, onde permanecerá aguardando aprovação do moderador. Ao final, receberá um aviso de “Receita Enviada”
 
@@ -66,45 +76,60 @@ Exemplo da tela de Atualização dos Dados do Chef:
 
 ![Tela atualização dos dados do chef](../codigo-fonte/img/print_tela_atualizacao_chef.png)
 
+Figura 26 - Tela "Atualização dos Dados do Chef"
+
 O acesso à tela de dados do chef poderá ser feito através da opção “Meus dados”, contida na tela em que o chef já está logado. As entradas de dados foram baseadas em HTML e CSS.
 
 #### Requisito atendido
 
 RF-03: A aplicação deve possibilitar a indicação do nível de dificuldade em cada receita;
+
 RF-06: A aplicação deve ter um formulário para a inserção de novos chefs e novas receitas.
 
 
 #### Artefatos da funcionalidade
 
 Tela "Login do Chef":
+
 ● loginChef.html
+
 ● style.css
 
 Tela "Cadastro do Chef":
+
 ● cadastrodochef.html
+
 ● cadastrodochef.css
 
 Tela "Cadastre uma Nova Receita":
+
 ● cadastreumanovareceita.html
+
 ● cadastreumanovareceita.css
 
 Tela "Atualização dos Dados do Chef":
+
 ● atualizaDadosChef.html
+
 ● style.css 
 
 
 #### Estrutura de Dados
 
 Tela "Login do Chef":
+
 ● [loginChef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/loginChef/loginChef.html) 
 
 Tela "Cadastro do Chef":
+
 ● [cadastrodochef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/cadastro-do-chef/cadastrodochef.html)
 
 Tela "Cadastre uma Nova Receita":
+
 ● [cadastreumanovareceita.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/cadastre-uma-nova-receita/cadastreumanovareceita.html)
 
 Tela "Atualização dos Dados do Chef":
+
 ● [atualizaDadosChef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/atualizaDadosChef/atualizaDadosChef.html)
 
 
@@ -131,6 +156,7 @@ Tela "Atualização dos Dados do Chef":
 #### Responsáveis
 
 Caio Slavieiro - Telas "Cadastro do Chef" e "Cadastre uma Nova Receita";
+
 Estevão Cota - Telas "Login do Chef" e "Atualização dos Dados do Chef".
 
 <hr>
@@ -140,6 +166,8 @@ Estevão Cota - Telas "Login do Chef" e "Atualização dos Dados do Chef".
 Exemplo da tela de Visualização da Receita:
 
 ![Tela visualização da receita](../codigo-fonte/img/print_tela_visualizacao_receita.png)
+
+Figura 27 - Tela "Visualização da Receita"
 
 O acesso à tela de cadastro poderá ser feito através dos links, na tela “Home Page”, referente à respectiva receita, ou através do link da respectiva receita na tela “Menu de Receitas”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -152,6 +180,7 @@ RF-04: A aplicação deve ter uma sessão de comentários para cada receita publ
 #### Artefatos da funcionalidade
 
 ● pgvisureceita.html
+
 ● pgvisureceita.css
 
 
@@ -177,6 +206,8 @@ Exemplo da tela Home Page:
 
 ![Tela home page](../codigo-fonte/img/print_tela_pagina_home.png)
 
+Figura 28 - Tela "Home Page"
+
 O acesso à tela "Home Page" poderá ser feito através do primeiro acesso ao site. As estruturas de dados foram baseadas em HTML, CSS.
 
 
@@ -188,6 +219,7 @@ RF-05: A aplicação deve ter na tela principal dicas de receitas.
 #### Artefatos da funcionalidade
 
 ● paginaHome.html
+
 ● style.css
 
 
@@ -204,6 +236,7 @@ RF-05: A aplicação deve ter na tela principal dicas de receitas.
 #### Responsáveis
 
 Ana Beatriz
+
 Clarence Silva
 
 <hr>
@@ -214,13 +247,19 @@ Exemplo da tela de Login do Moderador:
 
 ![Tela login do moderador](../codigo-fonte/img/print_tela_login_moderador.png)
 
+Figura 29 - Tela "Login do Moderador"
+
 O acesso à tela de login do moderador poderá ser feito através do ícone que consta no canto inferior direito da tela inicial do site (home), no rodapé. As entradas de dados foram baseadas em HTML e CSS.
 
 Exemplo da tela de Aprovação/Reprovação das Receitas:
 
 ![Tela aprovação/reprovação das receitas](../codigo-fonte/img/print_tela_aprovacao_receitas_cadastradas.png)
 
+Figura 30 - Tela "Aprovação/Reprovação das Receitas
+
 ![Tela visualização/avaliação da Receita](../codigo-fonte/img/print_tela_analise_receitas_cadastradas.png)
+
+Figura 31 - Modal "Análise da receita a ser aprovada"
 
 O acesso a tela será feito após o moderador entrar com seu login e senha, através da tela login do moderador, também o moderador poderá ver a receita pendente para aprovação através de um modal que abre após clicar no ícone de lupa. As entradas de dados foram baseadas em HTML, CSS e JS.
 
@@ -233,21 +272,28 @@ RF-07: A aplicação deve ter espaço que exibirá os formulários pendentes par
 #### Artefatos da funcionalidade
 
 Tela "Login do Moderador":
+
 ● loginModerador.html
+
 ● style.css
 
 Tela "Aprovação/Reprovação das Receitas":
+
 ● apr-rep-receitas.html
+
 ● apr-rep-receitas.css
+
 ● apr-rep-receitas.js
 
 
 #### Estrutura de Dados
 
 Tela "Login do Moderador":
+
 ● [loginModerador.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/loginModerador/loginModerador.html) 
 
 Tela "Aprovação/Reprovação das Receitas":
+
 ● [apr-rep-receitas.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/apr-rep-receitas/apr-rep-receitas.html)
 
 
@@ -267,6 +313,7 @@ Tela "Aprovação/Reprovação das Receitas":
 #### Responsáveis
 
 Estevão Cota - Tela "Login do Moderador";
+
 Gabriel de Oliveira - Tela "Aprovação/Reprovação das Receitas".
 
 <hr>
