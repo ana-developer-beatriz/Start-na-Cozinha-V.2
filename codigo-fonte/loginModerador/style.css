@@ -1,6 +1,6 @@
 body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
   }
 
   h1 {
@@ -8,7 +8,7 @@ body, h1, h2, ul, li {
   }
 
   p {
-    margin: 10px;
+    margin: 0,9%;
   }
 
   header {
@@ -65,47 +65,48 @@ body, h1, h2, ul, li {
   
   .main {
     text-align: center;
-    padding: 160px 600px 150px;
+    padding: 8% 30%;
   }
      
   .block {
     background-color: #fff;
-    width: 700px;
+    width: 100%;
     height: 450px;
-    padding: 10px;
+    padding: 1%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .block img {
-    max-width: 40px;
+    max-width: 5%;
     display: block;
-    margin: 10px;
+    margin: 1%;
     text-align: left;
   }
 
   .form {
-    padding: 10px 200px;
+    padding: 2%;
   }
 
-  #FormEmail2 {
+  .form-control {
     height: 40px;
-    width: 250px;
-  }
-
-  #FormPassword2 {
-    height: 40px;
-    width: 250px;
+    width: 35%;
+    margin: 1%;
   }
   
   .button {
     background-color: #333;
     color: #fff;
     letter-spacing: 2px;
-    padding: 10px 105px;
-    margin: 5px;
+    padding: 2% 15%;
+    margin: 1%;
     display:inline-block;
+  }
+
+  .button:hover {
+    background-color: gray;
+    color: white;
   }
 
   footer {

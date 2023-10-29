@@ -1,6 +1,6 @@
 body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
   }
 
   h1 {
@@ -39,18 +39,7 @@ body, h1, h2, ul, li {
     font-size: 10px;
     font-weight: bold;
   }
-  
-  a {
-    color:  #49A078 ;
-    text-decoration: none;
-    transition: 0.3s;
-    display: contents;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
+    
   body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -64,69 +53,43 @@ body, h1, h2, ul, li {
   
   .main {
     text-align: center;
-    padding: 80px 600px 80px;
+    padding: 4% 30%;
   }
      
   .block {
     background-color: #fff;
-    width: 700px;
+    width: 100%;
     height: 600px;
-    padding: 10px;
+    padding: 1%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   .block img {
-    max-width: 40px;
+    max-width: 5%;
     display: block;
-    margin: 10px;
+    margin: 1%;
     text-align: left;
   }
 
-  .form {
-    padding: 10px 200px;
+  .form-control {
+    margin: 1%;
+    width: 35%;
+    padding: 2%;
   }
-
-  #FormNome {
-    height: 40px;
-    width: 250px;
-    margin-top: 15px;
-}
-
-  #FormEmail {
-    height: 40px;
-    width: 250px;
-}
-
-  #FormTelefone {
-    height: 40px;
-    width: 250px;
-}
-
-  #FormSenhaAtual {
-    height: 40px;
-    width: 250px;
-}
-
-  #FormNovaSenha {
-    height: 40px;
-    width: 250px;
-}
-
-  #FormConfirmacaoSenha {
-    height: 40px;
-    width: 250px;
-    margin-bottom: 15px;
-}
-  
+ 
   .button {
     background-color: #333;
     color: #fff;
     letter-spacing: 2px;
-    padding: 10px 90px;
-    margin: 5px;
-    display:inline-block;
+    padding: 2% 15%;
+    margin: 1%;
+  }
+
+  .button:hover {
+    background-color: gray;
+    color: white;
   }
 
   footer {

@@ -27,15 +27,15 @@
                     <a href="../paginaHome/paginaHome.html"><img src="../img/icon_arrowleft.png" alt="setaVoltar"></a>
                     <h1>Login</h1>
                     <p>Digite o e-mail e senha para acessar sua área de chef</p>
-                        <div class="form">
-                            <input type="email" class="form-control" id="FormEmail" placeholder="E-mail">
-                        </div>
-                        <div class="form">
-                            <input type="password" class="form-control" id="FormPassword" placeholder="Senha">
-                        </div>
-                    <a class="button1" href="../cadastre-uma-nova-receita/index.html">Logar</a>
+                        <form action="../cadastre-uma-nova-receita/cadastreumanovareceita.html" method="post">
+                            <input type="email" class="form-control" placeholder="E-mail"/> <br/>
+                            <input type="password" class="form-control" placeholder="Senha"/> <br/>
+                            <input type="submit" id="login" value="Login"/>
+                        </form>
                     <a class="resetSenha" href="#"><p>Esqueceu sua senha?</p></a>
-                    <a class="button2" href="#">Criar Conta</a>
+                        <form action="../cadastro-do-chef/cadastrodochef.html" method="post">
+                            <input type="submit" id="criarConta" value="Criar Conta"/>
+                        </form>
             </div>
     </main>    
     <footer >
