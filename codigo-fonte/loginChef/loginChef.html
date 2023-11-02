@@ -9,7 +9,9 @@
     <meta name="description" content="Start na cozinha">
     <meta name="keywords" content="Puc, Projeto, ADS">
     <title>Start na Cozinha</title>
+    <script defer src="loginChef.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -27,13 +29,13 @@
                     <a href="../paginaHome/paginaHome.html"><img src="../img/icon_arrowleft.png" alt="setaVoltar"></a>
                     <h1>Login</h1>
                     <p>Digite o e-mail e senha para acessar sua área de chef</p>
-                        <form action="../cadastre-uma-nova-receita/cadastreumanovareceita.html" method="post">
-                            <input type="email" class="form-control" placeholder="E-mail"/> <br/>
-                            <input type="password" class="form-control" placeholder="Senha"/> <br/>
-                            <input type="submit" id="login" value="Login"/>
+                        <form method="post">
+                            <input type="email" id="IdEmail" class="form-control" placeholder="E-mail"/> <br/>
+                            <input type="password" id="IdSenha" class="form-control" placeholder="Senha"/> <br/>
+                            <input type="submit" onclick="logar(); return false" id="btLogin" value="Login"/>
                         </form>
                     <a class="resetSenha" href="#"><p>Esqueceu sua senha?</p></a>
-                        <form action="../cadastro-do-chef/cadastrodochef.html" method="post">
+                        <form action="../cadastro-do-chef/cadastrodochef.html" method="get">
                             <input type="submit" id="criarConta" value="Criar Conta"/>
                         </form>
             </div>
