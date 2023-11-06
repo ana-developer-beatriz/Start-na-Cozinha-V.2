@@ -17,6 +17,7 @@ body, h1, h2, ul, li {
     background-color:  #BFDBF7;
     padding: 10px 0;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -38,7 +39,7 @@ body, h1, h2, ul, li {
   }
   
   .logo span {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
   }
   
@@ -69,6 +70,11 @@ body, h1, h2, ul, li {
   }
      
   .block {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    justify-content: flex-start;
     background-color: #fff;
     width: 700px;
     height: 700px;
@@ -79,62 +85,153 @@ body, h1, h2, ul, li {
   }
   
   .block img {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: flex-start;
     max-width: 40px;
     display: block;
     margin: 10px;
     text-align: left;
   }
 
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
+  .container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
   }
 
   .form {
-    padding: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
   }
 
   #NomeCompleto {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 250px;
   }
 
   #FormEmail2 {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 250px;
   }
 
   #Telefone {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 250px;
   }
 
   #FormPassword2 {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 250px;
   }
   
-  .button1 {
-    background-color: #000000;
-    color: #fff;
-    letter-spacing: 2px;
-    padding: 100px 105px;
-    margin: 5px;
-    display:inline-block;
-  }
 
   .button2 {
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 250px;
     background-color: #000000;
     color: #fff;
-    letter-spacing: 2px;
-    padding: 10px 80px;
-    margin: 50px;
-    display:inline-block;
   }
-
   footer {
     background-color: #BFDBF7;
     color: #fff;
     text-align: center;
     padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+  @media screen and (max-width: 1000px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .form {
+      width: 31vw;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+      .button2 {
+        width: 31vw;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+  }  
+  footer {
+    background-color: #BFDBF7;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+  @media screen and (max-width: 700px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      align-content: center;
+    }
+
+    .button2 {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100vw;
+      align-content: center;
+    }
+  }
+  footer {
+    background-color: #BFDBF7;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
