@@ -85,6 +85,11 @@ body, h1, h2, ul, li {
     text-align: left;
   }
 
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .form {
     padding: 10px 200px;
   }
