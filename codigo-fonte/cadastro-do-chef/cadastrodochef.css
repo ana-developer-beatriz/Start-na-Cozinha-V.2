@@ -178,6 +178,27 @@ main {
 .button2:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+  .block {
+    display: flex;
+    flex-direction: row;
+    width: 31vw;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-content: center;
+  }
+}
+
 footer {
   background-color: #BFDBF7;
   color: #fff;
