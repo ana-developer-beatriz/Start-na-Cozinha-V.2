@@ -6,7 +6,7 @@
         // Verificar se o nome de usuário e a senha estão corretos
         if (email === "email" && senha === "senha") {
           // Salvar os detalhes de login no localStorage
-          localStorage.setItem("email", email);
+          localStorage.getItem("email", email);
           // Redirecionar para a página de perfil
           location.href = "https://www.globo.com/";
         } else {
