@@ -25,13 +25,13 @@
     </header>
     
     <main class="main">
-            <div class="block"> 
+            <div class="block">
                     <a href="../paginaHome/paginaHome.html"><img src="../img/icon_arrowleft.png" alt="setaVoltar"></a>
                     <h1>Login</h1>
                     <p>Digite o e-mail e senha para acessar sua área de chef</p>
                         <form method="post">
-                            <input type="email" id="IdEmail" class="form-control" placeholder="E-mail"/> <br/>
-                            <input type="password" id="IdSenha" class="form-control" placeholder="Senha"/> <br/>
+                            <input type="email" id="IdEmail" class="form-control" placeholder="E-mail" autofocus required/> <br/>
+                            <input type="password" id="IdSenha" class="form-control" placeholder="Senha" required/> <br/>
                             <input type="submit" onclick="logar(); return false" id="btLogin" value="Login"/>
                         </form>
                     <a class="resetSenha" href="#"><p>Esqueceu sua senha?</p></a>
@@ -39,7 +39,7 @@
                             <input type="submit" id="criarConta" value="Criar Conta"/>
                         </form>
             </div>
-    </main>    
+    </main>
     <footer >
         <p> Copyright 2023 - Todos os direitos reservados.</p>
     </footer>
