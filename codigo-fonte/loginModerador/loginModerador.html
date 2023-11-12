@@ -9,6 +9,7 @@
     <meta name="description" content="Start na cozinha">
     <meta name="keywords" content="Puc, Projeto, ADS">
     <title>Start na Cozinha</title>
+    <script defer src="loginModerador.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
@@ -28,10 +29,10 @@
                     <a href="../paginaHome/paginaHome.html"><img src="../img/icon_arrowleft.png" alt="setaVoltar"></a>
                     <h1>Login</h1>
                     <p>Digite o e-mail e senha para acessar sua área de moderador</p>
-                        <form action="../apr-rep-receitas/apr-rep-receitas.html" method="post">
+                        <form method="post">
                             <input type="email" class="form-control" id="FormEmail2" placeholder="E-mail" autofocus required/> <br/>
                             <input type="password" class="form-control" id="FormPassword2" placeholder="Senha" required/> <br/>
-                            <input type="submit" class="button" value="Login"/>
+                            <input type="submit" onclick="logar(); return false" class="button" value="Login"/>
                         </form>
             </div>
     </main>    
