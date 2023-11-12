@@ -58,6 +58,9 @@ header {
 a {
   color: #f0f0f0;
   text-decoration: none;
+  text-align: center;
+  width: 260px;
+  height: 40px;
   transition: 0.3s;
 }
 
@@ -127,17 +130,15 @@ a:hover {
     margin-right: 10px;
   }
   
-  .block2 {
+  .block2{
     display: flex;
     flex-direction: column;
+    align-items: auto;
     flex-wrap: wrap;
-    align-items: center;
     background-color: opache;
-    padding: 0px 0px;
-    margin-top: 100px;
-    margin-left: 1100px;
     width: 500px;
     height: 900px;
+    margin: 200px;
 
   }
   
@@ -190,7 +191,8 @@ a:hover {
     flex-wrap: wrap;
     width: 260px;
     height: 40px;
-    align-items: center;
+    margin: auto;
+    align-items: baseline;
     text-align: center;
     text-decoration: none;
     padding: 5px 5px;
@@ -201,6 +203,21 @@ a:hover {
   }
   
   .block2 button3:hover{
+    cursor: pointer;
+  }
+
+  #abrir-modal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 29vw;
+    height: 40px;
+    width: 260px;
+    margin: auto;
+    border: none;
+  }
+  
+  #abrir-modal:hover{
     cursor: pointer;
   }
   
@@ -215,10 +232,10 @@ a:hover {
       display: flex;
       justify-content: flex-start;
       padding-top: 10px;
-  }
+    }
   }
   @media screen and (max-width: 700px) {
-    .block1, {
+    .block1 {
       display: flex;
       flex-direction: column;
     }
@@ -230,7 +247,7 @@ a:hover {
   }
 
   @media screen and (max-width: 1000px) {
-    ..block2 {
+    .block2 {
       display: flex;
       flex-direction: row;
     }
@@ -239,7 +256,7 @@ a:hover {
       display: flex;
       justify-content: flex-start;
       padding-top: 10px;
-  }
+    }
   }
   @media screen and (max-width: 700px) {
     .block2 {
@@ -258,7 +275,6 @@ a:hover {
     color: #fff;
     text-align: center;
     padding: 10px 0px;
-    position: absolute;
     width: 100%;
     bottom: 0px;
   }
