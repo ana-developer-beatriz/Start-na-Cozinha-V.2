@@ -112,7 +112,24 @@ main {
   justify-content: center;
   align-content: center;
 }
-
+#msgError{
+  text-align: center;
+  color: #bb0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  display: none;
+}
+#msgSucess{
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  display: none;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -123,7 +140,17 @@ main {
   margin-left: 225px;
   padding: 10px 0px;
 }
-
+input{
+  border: 1px solid #000000;
+  border-radius: 2px;
+  border-color: #000000;
+}
+input:focus{
+  border: 1px solid #000000;
+  border-radius: 2px;
+  border-color: #000000;
+  outline: none;
+}
 #NomeCompleto {
   display: block;
   flex-direction: column;
@@ -158,6 +185,16 @@ main {
 }
 
 #FormPassword2 {
+  display: flex;
+  flex-direction: column;
+  width: 29vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 250px;
+}
+#confirmSenha{
   display: flex;
   flex-direction: column;
   width: 29vw;
