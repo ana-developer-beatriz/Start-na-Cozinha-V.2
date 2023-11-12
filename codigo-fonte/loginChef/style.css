@@ -71,7 +71,7 @@ body {
 .block {
   background-color: #fff;
   width: 100%;
-  height: 450px;
+  height: 550px;
   padding: 1%;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -90,7 +90,15 @@ body {
   width: 35%;
   padding: 2%;
 }
-
+#msgError{
+  text-align: center;
+  color: #bb0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  display: none;
+}
 
 #btLogin {
   background-color: #333;
@@ -120,7 +128,6 @@ body {
   letter-spacing: 2px;
   padding: 2% 14%;
   margin: 0,9%;
-  display:inline-block;
 }
 
 #criarConta:hover {
