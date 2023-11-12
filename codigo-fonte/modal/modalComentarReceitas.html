@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start na cozinha</title>
+  <link rel="stylesheet" href="modalComentarRecitasStyle.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="../img/Logo.png" alt="Start na Cozinha Logo">
+        <a href="#myModal">Start na cozinha</a>
+      </div>
+    </nav>
+  </header>
+  <div>
+    
+<div id="myModal" class="modal">
+  <span onclick="" style="cursor: pointer;">&times;</span>
+  <form>
+    <label for="avaliacao"></label>
+    <textarea id="avaliacao" placeholder="O que você achou dessa receita?" name="avaliacao" rows="3" cols="60"></textarea>
+
+    <input type="text" placeholder="Nome" id="nome" name="nome">
+
+    <input class="email" type="email" placeholder="Email" id="email" name="email">
+
+    <button class="comentarioBotao" type="button" onclick="comentar()">Comentar</button>
+    <p class="comentarios"> Comentários: </p>
+    <textarea id="avaliacao"  name="avaliacao" rows="8" cols="60"></textarea>
+  </form>
+
+</div>
+
+    <footer>
+      <div class="left"></div>
+      <div class="copy">
+        <p> Copyright 2023 - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
