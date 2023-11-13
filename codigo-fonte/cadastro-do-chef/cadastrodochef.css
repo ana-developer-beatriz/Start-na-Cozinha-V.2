@@ -207,16 +207,29 @@ input:focus{
 
 
 .button2 {
-
+  /*display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 29vw;
+  flex-wrap: wrap;
   height: 40px;
-  width: 260px;
-  margin-right: 240px;
+  width: 250px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;*/
+  display: flex;
+  flex-direction: column;
+  width: 29vw;
+  flex-wrap: wrap;
+  height: 40px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
   background-color: #000000;
   color: #fff;
   border-radius: 5px;
+  padding: 10px 0px;
 }
 
 .button2:hover {
@@ -224,14 +237,18 @@ input:focus{
 }
 
 #abrir-modal{
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 29vw;
+  flex-wrap: wrap;
   height: 40px;
-  width: 260px;
-  margin-left: 223px;
-  background-color: #f0f0f0;
-  border: none;
+  width: 250px;
+  margin-left: 227px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 0px;
 }
 
 #abrir-modal:hover{
