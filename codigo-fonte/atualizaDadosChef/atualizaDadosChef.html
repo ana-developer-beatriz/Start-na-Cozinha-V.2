@@ -9,6 +9,7 @@
     <meta name="description" content="Start na cozinha">
     <meta name="keywords" content="Puc, Projeto, ADS">
     <title>Start na Cozinha</title>
+    <script defer src="atualizaDadosChef.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 </head>
@@ -27,14 +28,14 @@
             <div class="block">
                     <a href="../cadastre-uma-nova-receita/index.html"><img src="../img/icon_arrowleft.png" alt="setaVoltar"></a>
                     <h1>Meus dados</h1>
-                        <form action="../cadastre-uma-nova-receita/cadastreumanovareceita.html">
+                        <form>
                             <input type="text" class="form-control" id="FormNome" placeholder="Nome completo" autofocus/> <br/>
                             <input type="e-mail" class="form-control" id="FormEmail" placeholder="E-mail"/> <br/>
                             <input type="tel" class="form-control" id="FormTelefone" placeholder="Telefone"/> <br/>
                             <input type="password" class="form-control" id="FormSenhaAtual" placeholder="Senha atual"/> <br/>
                             <input type="password" class="form-control" id="FormNovaSenha" placeholder="Nova Senha"/> <br/>
                             <input type="password" class="form-control" id="FormConfirmacaoSenha" placeholder="Confirme sua nova senha"/> <br/>
-                            <input type="submit" class="button" value="Atualizar"/>
+                            <input type="submit" onclick="atualizar()" class="button" value="Atualizar"/>
                         </form>
             </div>
     </main>    

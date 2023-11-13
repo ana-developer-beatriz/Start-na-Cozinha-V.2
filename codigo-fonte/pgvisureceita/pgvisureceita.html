@@ -27,37 +27,40 @@
         <div class="container">
         <div class="col1">
             <a href="../menu-de-receitas/menuDeReceitas.html"><img class="back" src="../img/icon_arrowleft.png" alt="seta para voltar"></a> <br>
-            <h1>Nome da Receita</h1> <br>
+            <div class="tituloReceita">
+                <script src="exibirReceitas.js"></script>
+                <script> carregarReceitas(function(receitas) {
+                    // Chamada da função
+                    exibirTituloDaReceita(0);
+                });</script>
+            </div>
+           
             <img class="ftrec" src="" width=300px alt="foto da receita"> <br>
             <div class="inforec">
-                <ul>
-                    <li><img src="../img/icon_timer.png" alt="ícone do relógio">Tempo de preparo</li>
-                    <li><img src="../img/icon_fryingpan.png" alt="ícone da frigideira">Nível de dificuldade</li>
-                    <li><img src="../img/icon_chef.png" alt="ícone do chef">Nome do Chef</li>
-                </ul>
+                <script src="exibirReceitas.js"></script>
+                <script> carregarReceitas(function(receitas) {
+                    // Chamada da função específica que deseja usar no HTML
+                    tempoDePreparo(0); 
+                });</script>
             </div>
         </div>
         <div class="col2">
             <h2>Ingredientes</h2>
             <div class="list_ingr">
-                <ol>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ol>
+                <script src="exibirReceitas.js"></script>
+                <script> carregarReceitas(function(receitas) {
+                    // Chamada da função
+                    exibirIngredientes(0); // Chamada para exibir os ingredientes da primeira receita (índice 0)
+                });</script>
             </div>
         </div>
         <div class="col3">
             <h2>Modo de Preparo</h2>
             <div class="mdpreparo">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum eum, necessitatibus quos cupiditate quidem tempora voluptas rem ipsam possimus ad cumque, vero quibusdam sed ea dolores! Dicta, aliquam eveniet eos beatae officiis natus exercitationem culpa minus doloribus ea perspiciatis assumenda maxime, voluptatem incidunt quibusdam vel quod. Ipsa iste in minus ut deleniti. Atque tempora consequuntur adipisci neque a laudantium enim impedit nulla optio, distinctio doloribus necessitatibus modi magni quo ex ad assumenda ut expedita laborum corrupti labore! Repellat quisquam, id provident aut incidunt veritatis deleniti nesciunt recusandae laboriosam mollitia quia aliquam sint quis cupiditate adipisci omnis quae itaque harum sit nulla deserunt minus architecto vero at. Vel debitis minus suscipit quos impedit! Asperiores ipsa, dignissimos laboriosam maiores eligendi quam culpa. Perspiciatis quod libero eaque, voluptates atque totam vel enim explicabo voluptatem! Totam aspernatur inventore quod, molestiae aliquam, cupiditate officia odio qui exercitationem corporis optio enim. Architecto laudantium voluptatibus similique.
+                <script src="exibirReceitas.js"></script>
+                <script> carregarReceitas(function(receitas) {
+                   exibirModoDePreparo(0); 
+                });</script>
             </div>
         </div>
         </div>
