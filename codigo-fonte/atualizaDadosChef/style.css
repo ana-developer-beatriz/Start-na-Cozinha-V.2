@@ -43,7 +43,6 @@ body, h1, h2, ul, li {
   body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    
   }
   
   .logo img {
@@ -53,14 +52,12 @@ body, h1, h2, ul, li {
   
   .main {
     text-align: center;
-    padding: 4% 30%;
+    padding: 5% 30%;
   }
      
   .block {
     background-color: #fff;
-    width: 100%;
-    height: 600px;
-    padding: 1%;
+    padding: 1% 1% 5%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -85,6 +82,7 @@ body, h1, h2, ul, li {
     letter-spacing: 2px;
     padding: 2% 15%;
     margin: 1%;
+    cursor: pointer;
   }
 
   .button:hover {
