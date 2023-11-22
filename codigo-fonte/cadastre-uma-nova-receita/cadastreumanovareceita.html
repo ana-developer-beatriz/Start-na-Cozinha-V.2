@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,84 +12,64 @@
     <script defer src="cadastreumanovareceita.js"></script>
     <link rel="stylesheet" href="cadastreumanovareceita.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <nav>
-                <div class="logo">
-                    <a href="../paginaHome/paginaHome.html"><img src="../img/Logo.png" alt="Start na Cozinha Logo"></a>
-                    <a href="../paginaHome/paginaHome.html">Start na cozinha</a>
-                </div>
-            </nav>
-        </nav>
+        <div class="logo">
+            <a href="../paginaHome/paginaHome.html"><img src="../img/Logo.png" alt="Start na Cozinha Logo"></a>
+            <a href="../paginaHome/paginaHome.html">Start na cozinha</a>
+        </div>
     </header>
 
     <main>
-
-        <div class="blocks">
-            <div class="block1">
-                <div>
-                    <h2>Olá, (nome do usuário)</h2>
+        <form id="recipeForm">
+            <h2 class="titutloCadastre">Cadastre uma nova receita</h2>
+    
+            <label for="titulo">Título da Receita:</label>
+            <input type="text" id="titulo" name="titulo" required>
+    
+            <label for="ingredientes">Ingredientes:</label>
+            <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
+    
+            <label for="modo-preparo">Modo de Preparo:</label>
+            <textarea id="modo-preparo" name="modo-preparo" rows="4" required></textarea>
+    
+            <label for="tempo-preparo">Tempo Médio de Preparo:</label>
+            <input type="text" id="tempo-preparo" name="tempo-preparo" required>
+    
+            <label for="dificuldade">Dificuldade:</label>
+            <select id="dificuldade" name="dificuldade" required>
+                <option value="facil">Fácil</option>
+                <option value="medio">Médio</option>
+                <option value="dificil">Difícil</option>
+            </select>
+    
+            <label for="foto">Anexar Foto:</label>
+            <input type="file" id="foto" name="foto">
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+        
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="center-content">
+                    <img src="../img/icon_check.png" class="modal-image">
+                    <h1>Receita enviada!</h1>
+                    <p>Após avaliação, sua receita será publicada no site.</p>
                 </div>
-                <br/>
-                <button>
-                    <img src="../img/icon_user.png" alt="">
-                    <p>Meus dados</p>
-                </button>
-                <button>
-                    <img src="../img/icon_exit.png" alt="">
-                    <p>Sair</p>
-                </button>
-            </div>
-
-            <div class="block2">
-                    <div>
-                        <h2><b>Cadastre uma nova receita</b></h2>
-                    </div>
-                    <button1>
-                        <p>Título da receita</p>
-                    </button1>
-
-                        <h3>Ingredientes</h3>
-                    <button2>
-                        <ol>
-                            <li> </li>
-                            <li> </li>
-                            <li> </li>
-                        </ol>
-                    </button2>
-                        <h3>Modo de Preparo</h3>
-                    <button2>
-                        <p>Descreva o modo de preparo</p>
-                    </button2>
-                    <br/>
-                    <button1>
-                        <p>Tempo médio de preparo</p>
-                    </button1>
-                    <br/>
-                    <button1>
-                        <p>Dificuldade</p>
-                        <img src="../img/icon_arrowrigth.png" alt="">
-                    </button1>
-                    <br/>
-                    <button1>
-                            <p>Anexar foto</p>
-                            <img src="../img/icon_foto.png" alt="">        
-                    </button1>
-                    <br/>
-                    <button3 id="abrir-modal">
-                    <a class="button3" href="#">Enviar receita</a>
-                    </button3>
             </div>
         </div>
-
+        
     </main>
 
     <footer>
-        <p> Copyright 2023 - Todos os direitos reservados.</p>
+        <div class="left"></div>
+        <div class="copy"><p> Copyright 2023 - Todos os direitos reservados.</p></div>
     </footer>
-    
+
 </body>
+
 </html>
