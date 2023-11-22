@@ -58,14 +58,16 @@ function entrar(){
     userValid = {
       nome: item.nomeCad,
       email: item.emailCad,
-      senha: item.passwordCad
+      senha: item.passwordCad,
+      telefone: item.telefoneCad
     }
    }
   }
   )
   if(IdEmail.value == userValid.email && IdSenha.value == userValid.senha){
 
-    window.location.href = "../cadastre-uma-nova-receita/cadastreumanovareceita.html"
+    window.location.href = "../TESTE/index.html"
+    localStorage.setItem("userLogado" , JSON.stringify(userValid))
   
   }else{
 
