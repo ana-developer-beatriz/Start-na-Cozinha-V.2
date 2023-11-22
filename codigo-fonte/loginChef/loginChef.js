@@ -66,7 +66,7 @@ function entrar(){
   )
   if(IdEmail.value == userValid.email && IdSenha.value == userValid.senha){
 
-    window.location.href = "../TESTE/index.html"
+    window.location.href = "../cadastre-uma-nova-receita/cadastreumanovareceita.html"
     localStorage.setItem("userLogado" , JSON.stringify(userValid))
   
   }else{

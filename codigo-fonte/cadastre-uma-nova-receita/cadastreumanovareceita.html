@@ -25,44 +25,58 @@
     </header>
 
     <main>
-        <form id="recipeForm">
-            <h2 class="titutloCadastre">Cadastre uma nova receita</h2>
-    
-            <label for="titulo">Título da Receita:</label>
-            <input type="text" id="titulo" name="titulo" required>
-    
-            <label for="ingredientes">Ingredientes:</label>
-            <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
-    
-            <label for="modo-preparo">Modo de Preparo:</label>
-            <textarea id="modo-preparo" name="modo-preparo" rows="4" required></textarea>
-    
-            <label for="tempo-preparo">Tempo Médio de Preparo:</label>
-            <input type="text" id="tempo-preparo" name="tempo-preparo" required>
-    
-            <label for="dificuldade">Dificuldade:</label>
-            <select id="dificuldade" name="dificuldade" required>
-                <option value="facil">Fácil</option>
-                <option value="medio">Médio</option>
-                <option value="dificil">Difícil</option>
-            </select>
-    
-            <label for="foto">Anexar Foto:</label>
-            <input type="file" id="foto" name="foto">
-            <button type="button" onclick="submitForm()">Enviar</button>
-        </form>
+        <div class="infoUsuario">
+            <h3 id="nameuserLogado"></h3>
+            <Button id="showModal">Meus Dados</Button>
+            <button onclick="sair()">Sair</button>
+            <dialog>
+                <span class="close" onclick="closeModal2()">&times;</span>
+                <h1>Dados do Usuário</h1>
+                <h4 id="nomelogado"></h4>
+                <h4 id="emaillogado"></h4>
+                <h4 id="senhalogado"></h4>
+                <h4 id="telefoneLogado"></h4>
+            </dialog>
+        </div>
+        <div>
+            <form id="recipeForm">
+                <h2 class="titutloCadastre">Cadastre uma nova receita</h2>
         
-        <div id="confirmationModal" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <div class="center-content">
-                    <img src="../img/icon_check.png" class="modal-image">
-                    <h1>Receita enviada!</h1>
-                    <p>Após avaliação, sua receita será publicada no site.</p>
+                <label for="titulo">Título da Receita:</label>
+                <input type="text" id="titulo" name="titulo" required>
+        
+                <label for="ingredientes">Ingredientes:</label>
+                <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
+        
+                <label for="modo-preparo">Modo de Preparo:</label>
+                <textarea id="modo-preparo" name="modo-preparo" rows="4" required></textarea>
+        
+                <label for="tempo-preparo">Tempo Médio de Preparo:</label>
+                <input type="text" id="tempo-preparo" name="tempo-preparo" required>
+        
+                <label for="dificuldade">Dificuldade:</label>
+                <select id="dificuldade" name="dificuldade" required>
+                    <option value="facil">Fácil</option>
+                    <option value="medio">Médio</option>
+                    <option value="dificil">Difícil</option>
+                </select>
+        
+                <label for="foto">Anexar Foto:</label>
+                <input type="file" id="foto" name="foto">
+                <button type="button" onclick="submitForm()">Enviar</button>
+            </form>
+            
+            <div id="confirmationModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div class="center-content">
+                        <img src="../img/icon_check.png" class="modal-image">
+                        <h1>Receita enviada!</h1>
+                        <p>Após avaliação, sua receita será publicada no site.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        
     </main>
 
     <footer>

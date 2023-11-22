@@ -52,16 +52,38 @@ header {
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px;*/
+}
+.infoUsuario{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 50%;
+  height: 180px;
+  text-align: center;
+  border-radius: 5px;
+}
+.infoUsuario button{
+  margin: 2px ;
+  background-color: #888;
+  color: #fff;
+}
+dialog{
+  
+  height: 30%;
+
 }
 @media screen and (min-width: 1200px) {
   main {
-    padding: 170px; /* Ajuste o valor conforme necessário para telas grandes */
+    padding: 20px; /* Ajuste o valor conforme necessário para telas grandes */
   }
 }
 form {
@@ -81,8 +103,9 @@ footer {
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
- 
   bottom: 0;
+  position: fixed;
+  text-align: center;
 }
 
 .left {
