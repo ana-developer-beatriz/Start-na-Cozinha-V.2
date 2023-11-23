@@ -115,3 +115,35 @@ window.exibirModoDePreparo = exibirModoDePreparo;
 window.exibirTituloDaReceita = exibirTituloDaReceita;
 window.tempoDePreparo = tempoDePreparo;
  // Chama a função para exibir os ingredientes da primeira receita (índice 0)
+
+
+ //Cadastrar um comentário
+
+function enviarComent() {
+
+    let areaComent = document.querySelector("#areaComent")
+
+    let listComent = JSON.parse(localStorage.getItem("listComent") || "[]")
+
+    listComent.push(
+        {
+            comentario: areaComent.value
+        }
+    )
+    
+localStorage.setItem("listComent", JSON.stringify(listComent))
+
+
+}
+
+function exibirComents(){
+
+let areaComent = JSON.parse(localStorage.getItem("listComent"))
+
+let allComents = document.querySelector(".allComents")
+console.log(allComents)
+
+allComents.innerText = `Usuario comentou: ${areaComent.comentario}`
+
+}
+

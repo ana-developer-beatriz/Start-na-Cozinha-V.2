@@ -67,12 +67,17 @@
     </main>
 
     <section>
-        <a href="">Comentários (XX)</a>
+        <h3><label>Deixe um comentário:</label></h3>
+        <textarea id="areaComent" rows="4" cols="50"></textarea>
+        <br>
+        <input onclick="enviarComent()" type="submit" value="Enviar">
+        <div class="allComents"></div>
     </section>
 
     <footer>
         <p> Copyright 2023 - Todos os direitos reservados.</p>
     </footer>
+    <script src="exibirReceitas.js">document.addEventListener("DOMContentLoaded", function(){exibirComents();})</script>
 </body>
 
 </html>

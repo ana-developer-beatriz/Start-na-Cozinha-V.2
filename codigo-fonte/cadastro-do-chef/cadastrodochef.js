@@ -72,6 +72,7 @@ FormPassword2.addEventListener("keyup" , () => {
 confirmSenha.addEventListener("keyup" , () => {
     if(FormPassword2.value != confirmSenha.value){
         confirmSenha.setAttribute("style", "border-color: red")
+        alert("As senhas não estão iguais")
         validconfirmSenha = false
     }else{
         confirmSenha.setAttribute("style", "border-color: green")

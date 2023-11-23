@@ -64,12 +64,13 @@ body, h1, h2, ul, li {
     }
 
 footer {
-    background-color: #BFDBF7;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  background-color: #BFDBF7;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 button {
