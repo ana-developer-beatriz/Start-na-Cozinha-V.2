@@ -6,7 +6,7 @@ As páginas possuem como elementos padrões o menu de navegação, o header e o 
 
 Cores: RGB: #BFDBF7, #49A078 e white; <br>
 Font-family: Montserrate, arial e sans-serif; <br>
-Fonte-size: 30px, 20px e 15px.
+Fonte-size: 36px, 28px e 10px.
 
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/main/codigo-fonte/img">aqui</a>.
 

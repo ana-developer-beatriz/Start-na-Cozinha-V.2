@@ -29,7 +29,7 @@ RF-02: A aplicação deve conter filtros onde o usuário poderá pesquisar a rec
 
 #### Estrutura de Dados
 
-● [menuDeReceitas.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/menu-de-receitas/menuDeReceitas.html) 
+● N/A.
 
 
 #### Instruções de acesso
@@ -118,19 +118,19 @@ Tela "Atualização dos Dados do Chef":
 
 Tela "Login do Chef":
 
-● [loginChef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/loginChef/loginChef.html) 
+● N/A
 
 Tela "Cadastro do Chef":
 
-● [cadastrodochef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/cadastro-do-chef/cadastrodochef.html)
+● N/A
 
 Tela "Cadastre uma Nova Receita":
 
-● [cadastreumanovareceita.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/cadastre-uma-nova-receita/cadastreumanovareceita.html)
+● N/A
 
 Tela "Atualização dos Dados do Chef":
 
-● [atualizaDadosChef.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/atualizaDadosChef/atualizaDadosChef.html)
+● N/A
 
 
 #### Instruções de acesso
@@ -186,7 +186,12 @@ RF-04: A aplicação deve ter uma sessão de comentários para cada receita publ
 
 #### Estrutura de Dados
 
-● [pgvisureceita.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/pgvisureceita/pgvisureceita.html) 
+● [receitas.json](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/pgvisureceita/receitas.json)
+
+
+![Print da estrutura de dados do arquivo json.](../codigo-fonte/img/estrutura_de_dados.png)
+
+Figura 22 - Demonstração da Estrutura de Dados do arquivo json.
 
 
 #### Instruções de acesso
@@ -225,7 +230,7 @@ RF-05: A aplicação deve ter na tela principal dicas de receitas.
 
 #### Estrutura de Dados
 
-● [paginaHome.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/paginaHome/paginaHome.html) 
+● N/A 
 
 
 #### Instruções de acesso
@@ -290,11 +295,11 @@ Tela "Aprovação/Reprovação das Receitas":
 
 Tela "Login do Moderador":
 
-● [loginModerador.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/loginModerador/loginModerador.html) 
+● N/A 
 
 Tela "Aprovação/Reprovação das Receitas":
 
-● [apr-rep-receitas.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/apr-rep-receitas/apr-rep-receitas.html)
+● N/A
 
 
 #### Instruções de acesso
