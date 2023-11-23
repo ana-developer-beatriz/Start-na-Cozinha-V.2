@@ -164,3 +164,8 @@ li {
 .modicon img {
 width: 50px;
 }
+
+.botao a {
+  text-decoration: none;
+  color: #fff;
+}

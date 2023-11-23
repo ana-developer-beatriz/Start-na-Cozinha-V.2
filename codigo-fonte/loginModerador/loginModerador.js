@@ -5,7 +5,7 @@
   
     // Verificar se o nome de usuário e a senha estão corretos
     if (email === "admin" && senha === "admin") {
-      location.href = "https://www.globo.com/";
+      location.href ="../apr-rep-receitas/apr-rep-receitas.html";
     } else {
       alert("Dados inválidas. Tente novamente.");
     }
