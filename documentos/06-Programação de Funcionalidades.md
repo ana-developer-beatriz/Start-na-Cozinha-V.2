@@ -191,7 +191,7 @@ RF-04: A aplicação deve ter uma sessão de comentários para cada receita publ
 
 ![Print da estrutura de dados do arquivo json.](../codigo-fonte/img/estrutura_de_dados.png)
 
-Figura 22 - Demonstração da Estrutura de Dados do arquivo json.
+Figura 28 - Demonstração da Estrutura de Dados do arquivo json.
 
 
 #### Instruções de acesso
@@ -211,7 +211,7 @@ Exemplo da tela Home Page:
 
 ![Tela home page](../codigo-fonte/img/print_tela_pagina_home.png)
 
-Figura 28 - Tela "Home Page"
+Figura 29 - Tela "Home Page"
 
 O acesso à tela "Home Page" poderá ser feito através do primeiro acesso ao site. As estruturas de dados foram baseadas em HTML, CSS.
 
@@ -252,7 +252,7 @@ Exemplo da tela de Login do Moderador:
 
 ![Tela login do moderador](../codigo-fonte/img/print_tela_login_moderador.png)
 
-Figura 29 - Tela "Login do Moderador"
+Figura 30 - Tela "Login do Moderador"
 
 O acesso à tela de login do moderador poderá ser feito através do ícone que consta no canto inferior direito da tela inicial do site (home), no rodapé. As entradas de dados foram baseadas em HTML e CSS.
 
@@ -260,11 +260,11 @@ Exemplo da tela de Aprovação/Reprovação das Receitas:
 
 ![Tela aprovação/reprovação das receitas](../codigo-fonte/img/print_tela_aprovacao_receitas_cadastradas.png)
 
-Figura 30 - Tela "Aprovação/Reprovação das Receitas
+Figura 31 - Tela "Aprovação/Reprovação das Receitas
 
 ![Tela visualização/avaliação da Receita](../codigo-fonte/img/print_tela_analise_receitas_cadastradas.png)
 
-Figura 31 - Modal "Análise da receita a ser aprovada"
+Figura 32 - Modal "Análise da receita a ser aprovada"
 
 O acesso a tela será feito após o moderador entrar com seu login e senha, através da tela login do moderador, também o moderador poderá ver a receita pendente para aprovação através de um modal que abre após clicar no ícone de lupa. As entradas de dados foram baseadas em HTML, CSS e JS.
 
