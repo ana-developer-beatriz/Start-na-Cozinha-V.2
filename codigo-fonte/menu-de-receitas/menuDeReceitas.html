@@ -155,14 +155,20 @@
 
   if (filteredRecipes.length > 0) {
     filteredRecipes.forEach(recipe => {
-      const recipeElement = document.createElement('div');
+      const recipeElement = document.createElement('dialog');
       recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
                                  <p>Chef: ${recipe.Nome_Chef}</p>
                                  <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
                                  <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
                                  <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
-                                 <hr>`;
+                                 <button id="closeModal">Voltar</button>
+                                 <hr>`;               
       resultsContainer.appendChild(recipeElement);
+      recipeElement.showModal()
+      let closeModal = document.getElementById("closeModal")
+      closeModal.onclick = function() {
+        recipeElement.close()
+      }
     });
   } else {
     resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
