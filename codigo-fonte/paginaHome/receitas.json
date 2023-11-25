@@ -1,0 +1,40 @@
+{
+  "receitas": [
+    {
+      "nome": "Lasanha à Bolonhesa",
+      "modo_de_preparo": "1. Cozinhe a massa da lasanha em água fervente com sal. \n2. Prepare o molho à bolonhesa com carne moída, molho de tomate, cebola, alho e temperos. \n3. Em um refratário, monte camadas de massa, molho e queijo. \n4. Repita as camadas até terminarem os ingredientes. \n5. Leve ao forno por 30 minutos ou até gratinar.",
+      "ingredientes": [
+        "500g de massa para lasanha",
+        "400g de carne moída",
+        "500ml de molho de tomate",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "250g de queijo mussarela",
+        "Sal e pimenta a gosto",
+        "Orégano a gosto"
+      ],
+      "Nome_Chef": "Ana Beatriz",
+      "imagemChef": "../img/icon_chef.png", 
+      "tempo_de_preparo": "30 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade": "Médio",
+      "imagemFry": "../img/icon_fryingpan.png"   
+    },
+    {
+      "nome": "Salmão Grelhado",
+      "modo_de_preparo": "1. Tempere os filés de salmão com sal, pimenta e limão. \n2. Aqueça a grelha ou frigideira. \n3. Grelhe o salmão por 4-5 minutos de cada lado. \n4. Sirva com acompanhamentos a gosto.",
+      "ingredientes": [
+        "4 filés de salmão",
+        "Sal e pimenta a gosto",
+        "Suco de limão",
+        "Azeite"
+      ],
+      "tempo_de_preparo":"10 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade":"Fácil",
+      "imagemFry": "../img/icon_fryingpan.png",
+      "Nome_Chef": "Isabella Smith",
+      "imagemChef": "../img/icon_chef.png"
+    }
+  ]
+}

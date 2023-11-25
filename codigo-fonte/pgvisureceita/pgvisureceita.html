@@ -28,39 +28,24 @@
         <div class="col1">
             <a href="../menu-de-receitas/menuDeReceitas.html"><img class="back" src="../img/icon_arrowleft.png" alt="seta para voltar"></a> <br>
             <div class="tituloReceita">
-                <script src="exibirReceitas.js"></script>
-                <script> carregarReceitas(function(receitas) {
-                    // Chamada da função
-                    exibirTituloDaReceita(0);
-                });</script>
+              
             </div>
            
             <img class="ftrec" src="" width=300px alt="foto da receita"> <br>
             <div class="inforec">
-                <script src="exibirReceitas.js"></script>
-                <script> carregarReceitas(function(receitas) {
-                    // Chamada da função específica que deseja usar no HTML
-                    tempoDePreparo(0); 
-                });</script>
+               
             </div>
         </div>
         <div class="col2">
             <h2>Ingredientes</h2>
             <div class="list_ingr">
-                <script src="exibirReceitas.js"></script>
-                <script> carregarReceitas(function(receitas) {
-                    // Chamada da função
-                    exibirIngredientes(0); // Chamada para exibir os ingredientes da primeira receita (índice 0)
-                });</script>
+               
             </div>
         </div>
         <div class="col3">
             <h2>Modo de Preparo</h2>
             <div class="mdpreparo">
-                <script src="exibirReceitas.js"></script>
-                <script> carregarReceitas(function(receitas) {
-                   exibirModoDePreparo(0); 
-                });</script>
+               
             </div>
         </div>
         </div>
@@ -71,10 +56,7 @@
             <input onclick="enviarComent()" type="submit" value="Enviar">
             <h2> Comentários:</h2>
             <p class="allComents"></p>
-            <div class="mdpreparo">
-                <script src="exibirReceitas.js"></script>
-               
-            </div>
+           
         </section>
     </main>
 
@@ -83,7 +65,10 @@
     <footer>
         <p> Copyright 2023 - Todos os direitos reservados.</p>
     </footer>
-    <script src="exibirReceitas.js">document.addEventListener("DOMContentLoaded", function(){exibirComents();})</script>
+    <script src="exibirReceitas.js">document.addEventListener("DOMContentLoaded", function(){exibirComents();})
+  
+    </script>
+
 </body>
 
 </html>
