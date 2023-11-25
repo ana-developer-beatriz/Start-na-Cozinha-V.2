@@ -130,6 +130,15 @@ main {
   border-radius: 2px;
   display: none;
 }
+#msgDiferente{
+  text-align: center;
+  color: #bb0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  display: none;
+}
 .form {
   display: flex;
   flex-direction: column;

@@ -28,6 +28,7 @@ let validconfirmSenha = false
 
 let msgError = document.querySelector("#msgError")
 let msgSucess = document.querySelector("#msgSucess")
+msgDiferente = document.querySelector("#msgDiferente")
 
 nomeCompleto.addEventListener("keyup" , () => {
     if(nomeCompleto.value.length <= 2 ){
@@ -72,7 +73,8 @@ FormPassword2.addEventListener("keyup" , () => {
 confirmSenha.addEventListener("keyup" , () => {
     if(FormPassword2.value != confirmSenha.value){
         confirmSenha.setAttribute("style", "border-color: red")
-        alert("As senhas não estão iguais")
+        msgDiferente.setAttribute("style", "display: block")
+        msgDiferente.innerHTML = "<strong> As senhas não coincidem</strong>"
         validconfirmSenha = false
     }else{
         confirmSenha.setAttribute("style", "border-color: green")
