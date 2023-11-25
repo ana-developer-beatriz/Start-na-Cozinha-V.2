@@ -133,17 +133,26 @@ function enviarComent() {
     
 localStorage.setItem("listComent", JSON.stringify(listComent))
 
-
+exibirComents();
 }
 
 function exibirComents(){
+    let areaComent = JSON.parse(localStorage.getItem("listComent"));
+    console.log('areaComent', areaComent);
 
-let areaComent = JSON.parse(localStorage.getItem("listComent"))
+    let allComents = document.querySelector(".allComents");
+    console.log(allComents);
 
-let allComents = document.querySelector(".allComents")
-console.log(allComents)
+    // Limpa o conteúdo 
+    allComents.innerHTML = "";
 
-allComents.innerText = `Usuario comentou: ${areaComent.comentario}`
+    // Percorre todos os comentários e cria elementos <li> para cada um
+    areaComent.forEach((item) => {
+        var itemLista = document.createElement('li');
+        itemLista.textContent = item.comentario;
+        allComents.appendChild(itemLista);
+    });
 
 }
+exibirComents()
 
