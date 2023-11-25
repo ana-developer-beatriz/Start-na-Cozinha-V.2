@@ -35,6 +35,86 @@
       "imagemFry": "../img/icon_fryingpan.png",
       "Nome_Chef": "Isabella Smith",
       "imagemChef": "../img/icon_chef.png"
-    }
+    },
+    {
+      "nome": "Bolo de Morango",
+      "modo_de_preparo": "1 - Bata na batedeira as claras em neve, adicione as gemas uma a uma e continue batendo, junte o açúcar e bata mais um pouco. \n2 - Junte a farinha peneirada e o leite bem quente e mexa bem, sem bater, por último coloque o fermento. \n3 - Leve para assar em forma redonda sem buraco no meio, untada e enfarinhada em forno pré-aquecido em temperatura média por no máximo 30 minutos ou quando tiver dourado e bem sequinho. \n3- Cresce bastante e fica bem fofinho.",
+      "ingredientes": [
+        "5 ovos",
+        "2 xícaras (chá) de farinha de trigo",
+        "1 colher (sopa) de fermento em pó",
+        "2 xícaras (chá) de açúcar",
+        "1 xícara (cha) de leite quente"
+      ],
+      "Nome_Chef": "Ana Beatriz",
+      "imagemChef": "../img/icon_chef.png",
+      "tempo_de_preparo": "1 hora e 30 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade": "Alta",
+      "imagemFry": "../img/icon_fryingpan.png"
+    },
+    {
+      "nome": "Arroz com Legumes",
+      "modo_de_preparo": "1 – Refogue o alho e a cebola no azeite \n2 – Coloque o arroz e deixe fritar por cerca de 30 segundos \n3 – Adicione a água fervente juntamente com os legumes e o sal \n4 – Abaixe o fogo e deixe cozinhar até a água ter quase secado \n5 - Tampe a panela e aguarde cerca de 20 minutos antes de servir Se desejar fazer mais, é só seguir as proporções, principalmente da água",
+      "ingredientes": [
+        "2 xícaras Arroz Novato lavado",
+        "4 xícaras água fervente",
+        "2 dentes alho amassado",
+        "1/2 cebola picada",
+        "150g ervilha",
+        "150g milho",
+        "150g vagem picada",
+        "150g cenoura picada",
+        "Azeite",
+        "Sal a gosto"
+      ],
+      "Nome_Chef": "Ana Beatriz",
+      "imagemChef": "../img/icon_chef.png",
+      "tempo_de_preparo": "15 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade": "Baixa",
+      "imagemFry": "../img/icon_fryingpan.png"
+    },
+    {
+      "nome": "Batata Doce",
+      "modo_de_preparo": "1. Lave, seque e descasque as batatas-doces. Corte em meias-luas grossas e transfira para uma panela média. Cubra com água e tempere com ½ colher (chá) de sal. \n2. Leve ao fogo alto e, assim que ferver, deixe cozinhar por cerca de 20 minutos, ou até ficarem macias - para verificar, espete com um garfo. \n3. Desligue o fogo e reserve 1 xícara (chá) da água do cozimento. Escorra as batatas por uma peneira. \n4. Volte as batatas, ainda quentes, para a mesma panela e bata com um mixer até ficar bem liso. Acrescente, aos poucos, a água do cozimento para dar o ponto. Se preferir um purê mais rústico, passe as batatas por um espremedor. \n5. Junte a manteiga e mexa bem com uma espátula até derreter e o purê ficar cremoso. Prove e, se necessário, tempere com mais sal. Sirva a seguir.",
+      "ingredientes": [
+        "3 batatas-doces brancas",
+        "1 xícara (chá) da água do cozimento",
+        "2 colheres (sopa) de manteiga gelada",
+        "sal a gosto"
+      ],
+      "Nome_Chef": "Ana Beatriz",
+      "imagemChef": "../img/icon_chef.png",
+      "tempo_de_preparo": "1 hora",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade": "Média",
+      "imagemFry": "../img/icon_fryingpan.png"
+    },
+    {
+      "nome": "Feijão Tropeiro",
+      "modo_de_preparo": "1. Em uma panela grande (28cm de diâmetro), aqueça 1 colher de sopa de azeite, frite o bacon e reserve. Em seguida, frite e reserve os gomos de linguiça calabresa. \n2. Na mesma panela, frite a cebola e o alho e, depois, junte-os ao feijão escorrido. \n3. Junte novamente o bacon e a linguiça, e adicione a farinha de mandioca e os ovos mexidos. \n4. Acrescente a salsa e a cebolinha picadas. \n5. Tempere com o tempero em pó Knorr Meu Feijão. Prontinho, já pode servir!",
+      "ingredientes": [
+      "2 colheres de sopa de azeite",
+      "1 xícara de chá de bacon picado",
+      "1 xícara de chá de linguiça calabresa de porco fatiada",
+      "1 cebola picada",
+      "3 dentes de alho amassados",
+      "2 xícaras de chá de feijão carioca cozido e escorrido",
+      "1 1/2 colher de sopa de farinha de mandioca",
+      "2 ovos mexidos",
+      "1/2 xícara de chá de cheiro-verde (salsa e cebolinha)",
+      "1 sachê de Tempero em Pó"
+      ],
+      "Nome_Chef": "Ana Beatriz",
+      "imagemChef": "../img/icon_chef.png",
+      "tempo_de_preparo": "20 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade": "Média",
+      "imagemFry": "../img/icon_fryingpan.png"
+      }
+     
+      
+      
   ]
 }
