@@ -78,6 +78,7 @@ confirmSenha.addEventListener("keyup" , () => {
         validconfirmSenha = false
     }else{
         confirmSenha.setAttribute("style", "border-color: green")
+        msgDiferente.setAttribute("style", "display: none")
         validconfirmSenha = true
     }
 })
