@@ -28,27 +28,47 @@
     <div class="recipe-bar">
       <div class="recipe">
         <img src="../img/Lasanha.jpg" alt="Receita 1">
-        <p>Lasanha Bolonhesa</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=0" id="receita1" data-titulo=""> Lasanha Bolonhesa</a></li>
+         
+
+      </ul>
       </div>
       <div class="recipe">
         <img src="../img/Salmao.jpg" alt="Receita 2">
-        <p>Salmão grelhado</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=1" id="receita2" data-titulo=""> Salmão</a></li>
+         
+
+      </ul>
       </div>
       <div class="recipe">
         <img src="../img/cake_receita.jpg" alt="Receita 1">
-        <p>Bolo de Morango</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=2" id="receita3" data-titulo=""> Bolo de Morango</a></li>
+
+      </ul>
       </div>
       <div class="recipe">
         <img src="../img/arroz.jpg" alt="Receita 2">
-        <p>Arroz com legumes</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=3" id="receita3" data-titulo="">Arroz com legumes</a></li>
+
+      </ul>
       </div>
       <div class="recipe">
         <img src="../img/batata.jpg" alt="Receita 1">
-        <p>Batata doce</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=4" id="receita3" data-titulo=""> Batata doce</a></li>
+
+      </ul>
       </div>
       <div class="recipe">
         <img src="../img/feijao.png" alt="Receita 2">
-        <p>Feijão tropeiro</p>
+        <ul>
+          <li><a href="../pgvisureceita/pgvisureceita.html?index=5" id="receita3" data-titulo=""> Feijão tropeiro</a></li>
+
+      </ul>
       </div>
     </div>
     <h1 class="container-h1"> Inicie a preparação de uma receita agora</h1>
@@ -170,6 +190,28 @@
     resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
   }
     }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Carrega o JSON de receitas
+        fetch('receitas.json')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                // Obtém os links das receitas
+                const linksReceitas = document.querySelectorAll('.list ul li a');
+    
+                // Atualiza os links com os títulos do JSON
+                data.receitas.forEach(function(receita, index) {
+                    const linkReceita = linksReceitas[index];
+                    linkReceita.textContent = receita.nome; // Assume que o título está na propriedade "nome"
+                    linkReceita.dataset.titulo = receita.nome; // Armazena o título no atributo data-titulo
+                });
+            })
+            .catch(function(error) {
+                console.error('Ocorreu um erro ao carregar o JSON:', error);
+            });
+    });
   </script>
 </body>
 
