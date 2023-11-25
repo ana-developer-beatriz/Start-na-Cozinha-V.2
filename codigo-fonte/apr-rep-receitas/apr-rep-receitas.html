@@ -70,7 +70,7 @@
                                     </div>
                                 </dialog>
                                 <a href="#"><img src="../img/icon_check.png" alt=""></a>
-                                <a href="#"><img src="../img/icon_deny.png" alt=""></a>
+                                <a href="#denid"><img src="../img/icon_deny.png" alt=""></a>
                             </td>
                         </tr>
                     </tbody>
@@ -92,10 +92,22 @@
             </div>
         </div>
     </div>
-    <script src="apr-rep-receitas.js">
-          document.addEventListener('DOMContentLoaded', function () {
-        carregarDetalhesNaTabela();
-    });
+    <div id="deniedModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModalX()">&times;</span>
+            <div class="center-content">
+                <img src="../img/icon_deny.png" class="modal-image">
+                <h1>Receita nao aprovada!</h1>
+                <p>Sua receita não será publicada no site.</p>
+            </div>
+        </div>
+    </div>
+    <script src="apr-rep-receitas.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            carregarDetalhesNaTabela();
+        });
     </script>
+    <script src="modalDenied.js"></script>
 </body>
 </html>

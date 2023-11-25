@@ -56,12 +56,23 @@ function fecharModalDetalhes() {
 }
 
 document.querySelector('#close').addEventListener('click', fecharModalDetalhes);
-
+//confirmação
 function exibirModalConfirmacao() {
     document.getElementById('confirmationModal').style.display = 'block';
+    
 }
 
 document.querySelector('#td-icons a[href="#"]').addEventListener('click', exibirModalConfirmacao);
 function closeModal() {
     document.getElementById('confirmationModal').style.display = 'none';
+}
+
+//exibe modal de negacao
+function exibirModalDenied() {
+    document.getElementById('deniedModal').style.display = 'block';
+}
+document.querySelector('#td-icons a[href="#denid"]').addEventListener('click', exibirModalDenied);
+
+function closeModalX() {
+    document.getElementById('deniedModal').style.display = 'none';
 }
