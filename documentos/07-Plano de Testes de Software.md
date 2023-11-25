@@ -42,7 +42,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---|:---|
 | Requisitos Associados | RF-04 A aplicação deve ter uma sessão de comentários para cada receita publicada. |
 | Objetivo do Teste | Verificar se é possível inserir comentários nas páginas de exibição das receitas cadastradas. |
-| Passos | <ol> <li> Abrir o arquivo html da página "Visualização da receita" em um navegador de internet; <li> Visualizar a página "Visualização da receita"; <li> Localizar o link "Comentários" logo abaixo da lista de ingredientes; <li> Clicar no link "Comentários"; <li> Digitar um exemplo de comentário no modal aberto e submeter o comentário clicando no botão "Comentar"; <li> Verificar se foi publicado o comentário acessando a página de visualização da receita novamente. |
+| Passos | <ol> <li> Abrir o arquivo html da página "Visualização da receita" em um navegador de internet; <li> Visualizar a página "Visualização da receita"; <li> Localizar o box "Comentários" logo abaixo da lista de ingredientes; <li> Digitar um exemplo de comentário no box e submeter o comentário clicando no botão "Enviar"; <li> Verificar se foi publicado o comentário na página de visualização da receita abaixo do box de comentários. |
 | Critérios de êxito | A inserção do comentários deve ser confirmada através da "publicação" do mesmo, estando listado entre os comentários publicados na página de visualização da receita.  |
 | Responsável por elaborar o caso de Teste | Estevão |
 
