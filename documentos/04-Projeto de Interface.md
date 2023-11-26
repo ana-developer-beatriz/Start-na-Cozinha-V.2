@@ -5,7 +5,7 @@
 
 O fluxograma apresentado na figura 3 mostra o fluxo de interação do usuário pelas telas da plataforma. Cada uma das telas deste fluxo é específicada na seção de Protótipo de baixa fidelidade. Para visualizar o protótipo interativo, acesse: https://marvelapp.com/prototype/a0afee5/screen/92715119.
 
-![flowmap](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/144265096/3d5b9e00-eaae-4541-ba86-a955f6064e46)
+![flowmap](../codigo-fonte/img/interface_telas_projeto.jpeg)
 
 
 Figura 3 - Fluxo de telas do usuário

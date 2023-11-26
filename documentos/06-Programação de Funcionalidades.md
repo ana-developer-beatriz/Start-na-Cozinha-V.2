@@ -70,11 +70,11 @@ Figura 25 - Tela "Cadastre uma Nova Receita"
 
 O acesso à tela de “Cadastre uma Nova Receita” ocorrerá após o Chef efetuar o login da conta dele na tela “Login do Chef”. Nela, o Chef poderá cadastrar uma nova receita informando o título da receita; os ingredientes; o modo de preparo; o tempo médio de preparo; o nível de dificuldade e poderá ainda anexar uma foto. Isto feito, as informações serão encaminhadas para a tela “Visualização/avaliação da receita”, onde permanecerá aguardando aprovação do moderador. Ao final, receberá um aviso de “Receita Enviada”
 
-Alternativamente, no menu localizado no canto superior esquerdo da tela, poderá atualizar seus dados, ou sair desta tela. Optando pelo primeiro caminho, será direcionado a tela “Dados do Chef” de cadastro. Já escolhendo clicar em “Sair”, retorna à "Home Page". As estruturas de dados foram baseadas em HTML, CSS e JS.
+Alternativamente, no menu localizado no canto superior esquerdo da tela, poderá visualizar seus dados, ou sair desta tela. Optando pelo primeiro caminho, será direcionado a tela “Visualização dos dados do Chef”. Já escolhendo clicar em “Sair”, retorna à "Home Page". As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-Exemplo da tela de Atualização dos Dados do Chef:
+Exemplo da tela de Visualização dos Dados do Chef:
 
-![Tela atualização dos dados do chef](../codigo-fonte/img/print_tela_atualizacao_chef.png)
+![Tela atualização dos dados do chef](../codigo-fonte/img/print_tela_visualizacao_dados_chef.jpeg)
 
 Figura 26 - Tela "Atualização dos Dados do Chef"
 
