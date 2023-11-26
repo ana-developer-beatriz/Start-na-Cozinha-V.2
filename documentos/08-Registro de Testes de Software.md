@@ -33,12 +33,12 @@ Figura 35 - Print do filtro sem sucesso de receita por palavra
 | Responsável pela execução do caso de Teste | Estevão |
 
 
-![Print da seleção de ingediente](#)
+![Print da seleção de ingediente](../codigo-fonte/img/selecao_seletor_ingrediente.jpeg)
 
 Figura 36 - Print da seleção de ingediente
 
 
-![Print do filtro com sucesso de receita por seleção de ingediente](#)
+![Print do filtro com sucesso de receita por seleção de ingediente](../codigo-fonte/img/visu_receita_pos_selecao.jpeg)
 
 Figura 37 - Print do filtro com sucesso de receita por seleção de ingediente
 
@@ -68,12 +68,12 @@ Figura 38 - Print da seleção do nível de dificuldade da receita ao efetuar o 
 | Responsável pela execução do caso de Teste | Ana Beatriz |
 
 
-![Print da inclusão do comentário na apágina de visualização da receita](#)
+![Print da inclusão do comentário na apágina de visualização da receita](../codigo-fonte/img/comentarios_visual_receita.jpeg)
 
 Figura 39 - Print da inclusão do comentário na apágina de visualização da receita
 
 
-![Print da visualização do comentário incluído na página](#)
+![Print da visualização do comentário incluído na página](../codigo-fonte/img/comentarios_visual_receita_cadastrado.jpeg)
 
 Figura 40 - Print da visualização do comentário incluído na página
 
@@ -132,12 +132,12 @@ Figura 46 - Print do sucesso no login do Chef
 Figura 47 - Print do erro no login do Chef
 
 
-![Print da tela de preenchimento do formulário de cadastro das receitas](../codigo-fonte/img/form_cad_receitas_preenchido.jpg)
+![Print da tela de preenchimento do formulário de cadastro das receitas](../codigo-fonte/img/form_cad_receitas_preenchido.jpeg)
 
 Figura 48 - Print da tela de preenchimento do formulário de cadastro das receitas
 
 
-![Print da confirmação do cadastro da receita](../codigo-fonte/img/conf_envio_receita_cad.jpg)
+![Print da confirmação do cadastro da receita](../codigo-fonte/img/conf_envio_receita_cad.jpeg)
 
 Figura 49 - Print da confirmação do cadastro da receita
 
@@ -160,7 +160,7 @@ Figura 50 - Print da visualização da receita na área de aprovação/reprovaç
 Figura 51 - Print da aprovação da receita cadastrada
 
 
-![Print da reprovação da receita cadastrada](#)
+![Print da reprovação da receita cadastrada](../codigo-fonte/img/conf_reprov_receita.jpeg)
 
 Figura 52 - Print da reprovação da receita cadastrada
 
