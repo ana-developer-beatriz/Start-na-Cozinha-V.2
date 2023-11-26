@@ -44,7 +44,7 @@ Ana Beatriz
 
 <hr>
 
-### RF-03 e RF-06 (Telas "Login do Chef", "Cadastro do Chef", "Cadastre uma nova receita" e "Atualização dos Dados do Chef") 
+### RF-03 e RF-06 (Telas "Login do Chef", "Cadastro do Chef", "Cadastre uma nova receita" e "Visualização dos Dados do Chef") 
 
 Exemplo da tela de Login do Chef:
 
@@ -76,7 +76,7 @@ Exemplo da tela de Visualização dos Dados do Chef:
 
 ![Tela atualização dos dados do chef](../codigo-fonte/img/print_tela_visualizacao_dados_chef.jpeg)
 
-Figura 26 - Tela "Atualização dos Dados do Chef"
+Figura 26 - Tela "Visualização dos Dados do Chef"
 
 O acesso à tela de dados do chef poderá ser feito através da opção “Meus dados”, contida na tela em que o chef já está logado. As entradas de dados foram baseadas em HTML e CSS.
 
@@ -107,7 +107,7 @@ Tela "Cadastre uma Nova Receita":
 
 ● cadastreumanovareceita.css
 
-Tela "Atualização dos Dados do Chef":
+Tela "Visualização dos Dados do Chef":
 
 ● atualizaDadosChef.html
 
@@ -128,7 +128,7 @@ Tela "Cadastre uma Nova Receita":
 
 ● N/A
 
-Tela "Atualização dos Dados do Chef":
+Tela "Visualização dos Dados do Chef":
 
 ● N/A
 
@@ -147,7 +147,7 @@ Tela "Cadastre uma Nova Receita":
 1. Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/paginaHome/paginaHome.html;
 2. Ao clicar em “Área do Chef”, no quadro esquerdo da tela, terá acesso a tela de Login do Chef. Preencha o login e clique no botão “Logar”. Na sequencia será encaminhado para a tela “Cadastre uma Nova Receita”.
 
-Tela "Atualização dos Dados do Chef":
+Tela "Visualização dos Dados do Chef":
 1. Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/blob/main/codigo-fonte/paginaHome/paginaHome.html;
 2. Na página inicial do site, clique em “Área do Chef” e faça o login;
 3. Já logado, clique na opção “Meus dados” no menu (canto superior esquerdo) e será direcionado para a página que possibilita atualizar os dados do chef.
@@ -157,7 +157,7 @@ Tela "Atualização dos Dados do Chef":
 
 Caio Slavieiro - Telas "Cadastro do Chef" e "Cadastre uma Nova Receita";
 
-Estevão Cota - Telas "Login do Chef" e "Atualização dos Dados do Chef".
+Estevão Cota - Telas "Login do Chef" e "Visualização dos Dados do Chef".
 
 <hr>
 
