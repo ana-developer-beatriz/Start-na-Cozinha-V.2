@@ -114,5 +114,9 @@ body, h1, h2, ul, li {
     background-color: #BFDBF7;
     color: #fff;
     text-align: center;
-    padding: 10px 0px;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
   }

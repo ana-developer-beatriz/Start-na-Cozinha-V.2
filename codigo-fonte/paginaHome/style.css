@@ -93,11 +93,15 @@ h1 {
 }
 
 footer {
+  display: flex;
   background-color: #BFDBF7;
   color: #fff;
-  padding: 10px 0px;
-  display: flex;
-  flex-direction: row;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 
 .left {
@@ -138,7 +142,7 @@ li {
   margin: 0 auto; 
   padding: 20px; 
   max-width: 1200px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .sobre-texto {
