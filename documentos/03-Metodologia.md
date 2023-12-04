@@ -59,7 +59,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/tree/54446cf8329a3eb22df526de31179136351c2477/documentos|
 | Projeto de Interface                | MarvelApp                          | https://marvelapp.com/prototype/a0afee5|
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/626|
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Hospedagem                          | GitHub Pages                       | https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/codigo-fonte/paginaHome/paginaHome.html|
 
 
 ### Estratégia de Organização de Codificação 
