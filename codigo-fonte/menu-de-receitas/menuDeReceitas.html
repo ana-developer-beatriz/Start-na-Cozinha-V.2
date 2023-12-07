@@ -73,35 +73,9 @@
     </div>
     <h1 class="container-h1"> Inicie a preparação de uma receita agora</h1>
     <div class="dropdown-bar">
-      <!-- <div class="dropdown">
-        <select id="categoria1">
-          <option value="bolos">Bolos</option>
-          <option value="opcao1">Chocolate</option>
-         
-        </select>
-      </div>
-      <div class="dropdown">
-        <select id="categoria2">
-          <option value="bolos">Carnes</option>
-          <option value="opcao1">Carne moída</option>
-         
-        </select>
-      </div>
-      <div class="dropdown">
-        <select id="categoria3">
-          <option value="bolos">Dia a dia</option>
-          <option value="opcao1">Maçã</option>
-      
-        </select>
-      </div>
-      <div class="dropdown">
-        <select id="categoria4">
-          <option value="bolos">Massas</option>
-          <option value="opcao1">Lasanha</option>
      
-        </select>
-      </div> -->
       <div class="dropdown">
+        <h4>Almoços</h4>
         <select id="categoria1" onchange="handleCategoryChange()">
           <option value="todos">Todos</option>
           <option value="Feijão">Feijão</option>
@@ -109,6 +83,7 @@
         </select>
       </div>
       <div class="dropdown">
+        <h4> Peixes</h4>
         <select id="categoria2" onchange="handleCategoryChange()">
           <option value="todos">Todos</option>
           <option value="Arroz">Arroz</option>
@@ -116,6 +91,7 @@
         </select>
       </div>
       <div class="dropdown">
+        <h4> Dia a Dia</h4>
         <select id="categoria3" onchange="handleCategoryChange()">
           <option value="todos">Todos</option>
           <option value="Bolos">Dia a dia</option>
@@ -123,6 +99,7 @@
         </select>
       </div>
       <div class="dropdown">
+        <h4> Massas </h4>
         <select id="categoria4" onchange="handleCategoryChange()">
           <option value="todos">Todos</option>
           <option value="massas">Massas</option>
@@ -144,46 +121,6 @@
   </div>
 
   <script>
-//     const recipesData = {
-//       "receitas": [
-//     {
-//       "nome": "Lasanha à Bolonhesa",
-//       "modo_de_preparo": "1. Cozinhe a massa da lasanha em água fervente com sal. \n2. Prepare o molho à bolonhesa com carne moída, molho de tomate, cebola, alho e temperos. \n3. Em um refratário, monte camadas de massa, molho e queijo. \n4. Repita as camadas até terminarem os ingredientes. \n5. Leve ao forno por 30 minutos ou até gratinar.",
-//       "ingredientes": [
-//         "500g de massa para lasanha",
-//         "400g de carne moída",
-//         "500ml de molho de tomate",
-//         "1 cebola picada",
-//         "2 dentes de alho picados",
-//         "250g de queijo mussarela",
-//         "Sal e pimenta a gosto",
-//         "Orégano a gosto"
-//       ],
-//       "Nome_Chef": "Ana Beatriz",
-//       "imagemChef": "../img/icon_chef.png", 
-//       "tempo_de_preparo": "30 minutos",
-//       "imagemTimer": "../img/icon_timer.png",
-//       "Nivel_de_dificuldade": "Médio",
-//       "imagemFry": "../img/icon_fryingpan.png"   
-//     },
-//     {
-//       "nome": "Salmão Grelhado",
-//       "modo_de_preparo": "1. Tempere os filés de salmão com sal, pimenta e limão. \n2. Aqueça a grelha ou frigideira. \n3. Grelhe o salmão por 4-5 minutos de cada lado. \n4. Sirva com acompanhamentos a gosto.",
-//       "ingredientes": [
-//         "4 filés de salmão",
-//         "Sal e pimenta a gosto",
-//         "Suco de limão",
-//         "Azeite"
-//       ],
-//       "tempo_de_preparo":"10 minutos",
-//       "imagemTimer": "../img/icon_timer.png",
-//       "Nivel_de_dificuldade":"Fácil",
-//       "imagemFry": "../img/icon_fryingpan.png",
-//       "Nome_Chef": "Isabella Smith",
-//       "imagemChef": "../img/icon_chef.png"
-//     }
-//   ]
-// };
 const recipesData = {
   "receitas": [
     {
@@ -206,6 +143,23 @@ const recipesData = {
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Médio",
       "imagemFry": "../img/icon_fryingpan.png"   
+    },
+    {
+      "nome": "Salmão Grelhado",
+      "modo_de_preparo": "1. Tempere os filés de salmão com sal, pimenta e limão. \n2. Aqueça a grelha ou frigideira. \n3. Grelhe o salmão por 4-5 minutos de cada lado. \n4. Sirva com acompanhamentos a gosto.",
+      "ingredientes": [
+        "4 filés de salmão",
+        "Sal e pimenta a gosto",
+        "Suco de limão",
+        "Azeite"
+      ],
+      "categorias": ["Peixes"],
+      "tempo_de_preparo":"10 minutos",
+      "imagemTimer": "../img/icon_timer.png",
+      "Nivel_de_dificuldade":"Fácil",
+      "imagemFry": "../img/icon_fryingpan.png",
+      "Nome_Chef": "Isabella Smith",
+      "imagemChef": "../img/icon_chef.png"
     },
     {
       "nome": "Salmão Grelhado",
@@ -307,42 +261,7 @@ const recipesData = {
     }
   ]
 };
-  //   function searchRecipes() {
-  //     const searchInput = document.getElementById('searchInput').value.toLowerCase();
-  //     const resultsContainer = document.getElementById('results');
-  //     resultsContainer.innerHTML = ''; 
 
-  //     const filteredRecipes = recipesData.receitas.filter(recipe => {
-      
-  //   return (
-  //     (recipe.nome && recipe.nome.toLowerCase().includes(searchInput)) ||
-  //     (recipe.ingredientes && recipe.ingredientes.some(ingredient => ingredient && ingredient.toLowerCase().includes(searchInput))) ||
-  //     (recipe.Nome_Chef && recipe.Nome_Chef.toLowerCase().includes(searchInput))
-  //   );
-  // });
-
-
-  // if (filteredRecipes.length > 0) {
-  //   filteredRecipes.forEach(recipe => {
-  //     const recipeElement = document.createElement('dialog');
-  //     recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
-  //                                <p>Chef: ${recipe.Nome_Chef}</p>
-  //                                <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
-  //                                <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
-  //                                <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
-  //                                <button id="closeModal">Voltar</button>
-  //                                <hr>`;               
-  //     resultsContainer.appendChild(recipeElement);
-  //     recipeElement.showModal()
-  //     let closeModal = document.getElementById("closeModal")
-  //     closeModal.onclick = function() {
-  //       recipeElement.close()
-  //     }
-  //   });
-  // } else {
-  //   resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
-  // }
-  //   }
   function handleCategoryChange() {
     searchRecipes();
   }
@@ -371,26 +290,7 @@ const recipesData = {
     );
   });
 
-  // if (filteredRecipes.length > 0) {
-  //   filteredRecipes.forEach(recipe => {
-  //     const recipeElement = document.createElement('dialog');
-  //     recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
-  //                                <p>Chef: ${recipe.Nome_Chef}</p>
-  //                                <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
-  //                                <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
-  //                                <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
-  //                                <button id="closeModal">Voltar</button>
-  //                                <hr>`;
-  //     resultsContainer.appendChild(recipeElement);
-  //     recipeElement.showModal();
-  //     let closeModal = document.getElementById("closeModal");
-  //     closeModal.onclick = function () {
-  //       recipeElement.close();
-  //     };
-  //   });
-  // } else {
-  //   resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
-  // }
+ 
   if (filteredRecipes.length > 0) {
       filteredRecipes.forEach(recipe => {
         const recipeElement = document.createElement('dialog');
@@ -404,7 +304,6 @@ const recipesData = {
         resultsContainer.appendChild(recipeElement);
         recipeElement.showModal();
 
-        // Adicione um evento de clique ao botão de fechar modal
         const closeModalButtons = recipeElement.getElementsByClassName("closeModal");
         for (let closeButton of closeModalButtons) {
           closeButton.onclick = function () {
