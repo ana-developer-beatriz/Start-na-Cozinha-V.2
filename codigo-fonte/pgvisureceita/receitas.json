@@ -18,7 +18,8 @@
       "tempo_de_preparo": "30 minutos",
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Médio",
-      "imagemFry": "../img/icon_fryingpan.png"   
+      "imagemFry": "../img/icon_fryingpan.png",
+      "imagemRecipe": "../img/Lasanha.jpg"
     },
     {
       "nome": "Salmão Grelhado",
@@ -34,7 +35,8 @@
       "Nivel_de_dificuldade":"Fácil",
       "imagemFry": "../img/icon_fryingpan.png",
       "Nome_Chef": "Isabella Smith",
-      "imagemChef": "../img/icon_chef.png"
+      "imagemChef": "../img/icon_chef.png",
+      "imagemRecipe": "../img/Salmao.jpg"
     },
     {
       "nome": "Bolo de Morango",
@@ -51,7 +53,8 @@
       "tempo_de_preparo": "1 hora e 30 minutos",
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Alta",
-      "imagemFry": "../img/icon_fryingpan.png"
+      "imagemFry": "../img/icon_fryingpan.png",
+      "imagemRecipe": "../img/cake_receita.jpg"
     },
     {
       "nome": "Arroz com Legumes",
@@ -73,7 +76,9 @@
       "tempo_de_preparo": "15 minutos",
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Baixa",
-      "imagemFry": "../img/icon_fryingpan.png"
+      "imagemFry": "../img/icon_fryingpan.png",
+      "imagemRecipe": "../img/arroz.jpg"
+      
     },
     {
       "nome": "Batata Doce",
@@ -89,7 +94,8 @@
       "tempo_de_preparo": "1 hora",
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Média",
-      "imagemFry": "../img/icon_fryingpan.png"
+      "imagemFry": "../img/icon_fryingpan.png",
+      "imagemRecipe": "../img/batata.jpg"
     },
     {
       "nome": "Feijão Tropeiro",
@@ -111,7 +117,8 @@
       "tempo_de_preparo": "20 minutos",
       "imagemTimer": "../img/icon_timer.png",
       "Nivel_de_dificuldade": "Média",
-      "imagemFry": "../img/icon_fryingpan.png"
+      "imagemFry": "../img/icon_fryingpan.png",
+      "imagemRecipe": "../img/feijao.png"
       }
      
       

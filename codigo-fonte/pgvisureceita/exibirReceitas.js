@@ -48,6 +48,28 @@ function exibirTituloDaReceita(receitaIndex) {
 
         var containerTitulo = document.querySelector('.tituloReceita');
         containerTitulo.appendChild(tituloDaReceitaH1);
+
+    
+
+        var containerTitulo = document.querySelector('.tituloReceita');
+        containerTitulo.appendChild(tituloDaReceitaH1);
+    });
+}
+function exibirImgDaReceita(receitaIndex) {
+    carregarReceitas(function (receitas) {
+        var imgSrc = receitas[receitaIndex].imagemRecipes;
+        console.log(receitas);
+         // Cria a tag img
+         var imgElement = document.createElement('img');
+         imgElement.src = imgSrc;
+         imgElement.alt = "Imagem de Preparo"; // Substitua pelo texto alternativo apropriado
+
+       console.log(imgElement)
+    
+
+        var containerTitulo = document.querySelector('.ftrec');
+      
+        containerTitulo.appendChild(imgElement);
     });
 }
 
@@ -93,6 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (receitaIndex !== null) {
         carregarReceitas(function (receitas) {
+            exibirImgDaReceita(receitaIndex);
             exibirTituloDaReceita(receitaIndex);
             exibirIngredientes(receitaIndex);
             exibirModoDePreparo(receitaIndex);

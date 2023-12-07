@@ -69,13 +69,15 @@
                 return response.json();
             })
             .then(function(data) {
+            
                 // Obtém os links das receitas
                 const linksReceitas = document.querySelectorAll('.list ul li a');
     
                 // Atualiza os links com os títulos do JSON
                 data.receitas.forEach(function(receita, index) {
                     const linkReceita = linksReceitas[index];
-                    linkReceita.textContent = receita.nome; // Assume que o título está na propriedade "nome"
+                    linkReceita.textContent = receita.nome;
+                   // Assume que o título está na propriedade "nome"
                     linkReceita.dataset.titulo = receita.nome; // Armazena o título no atributo data-titulo
                 });
             })
@@ -83,7 +85,7 @@
                 console.error('Ocorreu um erro ao carregar o JSON:', error);
             });
     });
-    </script></script>
+    </script>
 </body>
 
 </html>

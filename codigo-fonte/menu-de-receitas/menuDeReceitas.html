@@ -162,23 +162,6 @@ const recipesData = {
       "imagemChef": "../img/icon_chef.png"
     },
     {
-      "nome": "Salmão Grelhado",
-      "modo_de_preparo": "1. Tempere os filés de salmão com sal, pimenta e limão. \n2. Aqueça a grelha ou frigideira. \n3. Grelhe o salmão por 4-5 minutos de cada lado. \n4. Sirva com acompanhamentos a gosto.",
-      "ingredientes": [
-        "4 filés de salmão",
-        "Sal e pimenta a gosto",
-        "Suco de limão",
-        "Azeite"
-      ],
-      "categorias": ["Peixes"],
-      "tempo_de_preparo":"10 minutos",
-      "imagemTimer": "../img/icon_timer.png",
-      "Nivel_de_dificuldade":"Fácil",
-      "imagemFry": "../img/icon_fryingpan.png",
-      "Nome_Chef": "Isabella Smith",
-      "imagemChef": "../img/icon_chef.png"
-    },
-    {
       "nome": "Bolo de Morango",
       "modo_de_preparo": "1 - Bata na batedeira as claras em neve, adicione as gemas uma a uma e continue batendo, junte o açúcar e bata mais um pouco. \n2 - Junte a farinha peneirada e o leite bem quente e mexa bem, sem bater, por último coloque o fermento. \n3 - Leve para assar em forma redonda sem buraco no meio, untada e enfarinhada em forno pré-aquecido em temperatura média por no máximo 30 minutos ou quando tiver dourado e bem sequinho. \n3- Cresce bastante e fica bem fofinho.",
       "ingredientes": [
@@ -224,6 +207,7 @@ const recipesData = {
       "modo_de_preparo": "1. Lave, seque e descasque as batatas-doces. Corte em meias-luas grossas e transfira para uma panela média. Cubra com água e tempere com ½ colher (chá) de sal. \n2. Leve ao fogo alto e, assim que ferver, deixe cozinhar por cerca de 20 minutos, ou até ficarem macias - para verificar, espete com um garfo. \n3. Desligue o fogo e reserve 1 xícara (chá) da água do cozimento. Escorra as batatas por uma peneira. \n4. Volte as batatas, ainda quentes, para a mesma panela e bata com um mixer até ficar bem liso. Acrescente, aos poucos, a água do cozimento para dar o ponto. Se preferir um purê mais rústico, passe as batatas por um espremedor. \n5. Junte a manteiga e mexa bem com uma espátula até derreter e o purê ficar cremoso. Prove e, se necessário, tempere com mais sal. Sirva a seguir.",
       "ingredientes": [
         "3 batatas-doces brancas",
+        "limao",
         "1 xícara (chá) da água do cozimento",
         "2 colheres (sopa) de manteiga gelada",
         "sal a gosto"
@@ -269,7 +253,58 @@ const recipesData = {
     const openModals = document.querySelectorAll('dialog[open]');
     openModals.forEach(modal => modal.close());
   }
-  function searchRecipes() {
+
+// function searchRecipes() {
+//   const searchInput = document.getElementById('searchInput').value.toLowerCase();
+//   const categoria1 = document.getElementById('categoria1').value.toLowerCase();
+//   const categoria2 = document.getElementById('categoria2').value.toLowerCase();
+//   const categoria3 = document.getElementById('categoria3').value.toLowerCase();
+//   const categoria4 = document.getElementById('categoria4').value.toLowerCase();
+//   const resultsContainer = document.getElementById('results');
+//   resultsContainer.innerHTML = '';
+
+//   // Obtenha os dados do localStorage e analise-os para obter o objeto recipeData
+//   const storedData = localStorage.getItem('recipeData');
+//   const recipesData = storedData ? JSON.parse(storedData) : { receitas: [] };
+
+//   const filteredRecipes = recipesData.receitas.filter(recipe => {
+//     return (
+//       (recipe.nome && recipe.nome.toLowerCase().includes(searchInput)) ||
+//       (recipe.ingredientes && recipe.ingredientes.some(ingredient => ingredient && ingredient.toLowerCase().includes(searchInput))) ||
+//       (recipe.Nome_Chef && recipe.Nome_Chef.toLowerCase().includes(searchInput)) ||
+//       (categoria1 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria1)) ||
+//       (categoria2 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria2)) ||
+//       (categoria3 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria3)) ||
+//       (categoria4 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria4))
+//     );
+//   });
+
+//   if (filteredRecipes.length > 0) {
+//     filteredRecipes.forEach(recipe => {
+//       const recipeElement = document.createElement('dialog');
+//       recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
+//                                  <p>Chef: ${recipe.Nome_Chef}</p>
+//                                  <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
+//                                  <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
+//                                  <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
+//                                  <button onclick="closeModal()">Voltar</button>
+//                                  <hr>`;
+//       resultsContainer.appendChild(recipeElement);
+//       recipeElement.showModal();
+
+//       const closeModalButtons = recipeElement.getElementsByTagName("button");
+//       for (let closeButton of closeModalButtons) {
+//         closeButton.onclick = function () {
+//           recipeElement.close();
+//         };
+//       }
+//     });
+//   } else {
+//     resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
+//   }
+// }
+//****criando link
+function searchRecipes() {
   const searchInput = document.getElementById('searchInput').value.toLowerCase();
   const categoria1 = document.getElementById('categoria1').value.toLowerCase();
   const categoria2 = document.getElementById('categoria2').value.toLowerCase();
@@ -277,6 +312,10 @@ const recipesData = {
   const categoria4 = document.getElementById('categoria4').value.toLowerCase();
   const resultsContainer = document.getElementById('results');
   resultsContainer.innerHTML = '';
+
+  // Obtenha os dados do localStorage e analise-os para obter o objeto recipeData
+  const storedData = localStorage.getItem('recipeData');
+  const recipesData = storedData ? JSON.parse(storedData) : { receitas: [] };
 
   const filteredRecipes = recipesData.receitas.filter(recipe => {
     return (
@@ -290,52 +329,146 @@ const recipesData = {
     );
   });
 
- 
   if (filteredRecipes.length > 0) {
-      filteredRecipes.forEach(recipe => {
-        const recipeElement = document.createElement('dialog');
-        recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
-                                   <p>Chef: ${recipe.Nome_Chef}</p>
-                                   <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
-                                   <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
-                                   <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
-                                   <button onclick="closeModal()">Voltar</button>
-                                   <hr>`;
-        resultsContainer.appendChild(recipeElement);
-        recipeElement.showModal();
+    filteredRecipes.forEach(recipe => {
+      // Crie um link para cada receita
+      const recipeLink = document.createElement('a');
+      recipeLink.href = '#'; // Altere isso para o caminho apropriado da sua página de detalhes da receita
+      recipeLink.textContent = recipe.nome;
+      recipeLink.onclick = function() {
+        // Ao clicar no link, exiba o modal com os detalhes da receita
+        displayRecipeDetails(recipe);
+        return false; // Isso evita a navegação padrão do link
+      };
 
-        const closeModalButtons = recipeElement.getElementsByClassName("closeModal");
-        for (let closeButton of closeModalButtons) {
-          closeButton.onclick = function () {
-            recipeElement.close();
-          };
-        }
-      });
-    } else {
-      resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
-    }
+      // Adicione o link à lista de resultados
+      resultsContainer.appendChild(recipeLink);
+      resultsContainer.appendChild(document.createElement('br')); // Adicione uma quebra de linha para separar os links
+    });
+  } else {
+    resultsContainer.innerHTML = '<p>Nenhuma receita encontrada.</p>';
+  }
 }
+//by categoria
+// function searchRecipesByCategory() {
+//   const categoria1 = document.getElementById('categoria1').value.toLowerCase();
+//   const categoria2 = document.getElementById('categoria2').value.toLowerCase();
+//   const categoria3 = document.getElementById('categoria3').value.toLowerCase();
+//   const categoria4 = document.getElementById('categoria4').value.toLowerCase();
+//   const resultsContainer = document.getElementById('results');
+//   resultsContainer.innerHTML = '';
+
+//   const filteredRecipes = recipesData.receitas.filter(recipe => {
+//     return (
+//       (categoria1 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria1)) ||
+//       (categoria2 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria2)) ||
+//       (categoria3 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria3)) ||
+//       (categoria4 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria4))
+//     );
+//   });
+
+//   if (filteredRecipes.length > 0) {
+//     filteredRecipes.forEach(recipe => {
+//       // Crie um link para cada receita
+//       const recipeLink = document.createElement('a');
+//       recipeLink.href = '#'; // Altere isso para o caminho apropriado da sua página de detalhes da receita
+//       recipeLink.textContent = recipe.nome;
+//       recipeLink.onclick = function () {
+//         // Ao clicar no link, exiba o modal com os detalhes da receita
+//         displayRecipeDetails(recipe);
+//         return false; // Isso evita a navegação padrão do link
+//       };
+
+//       // Adicione o link à lista de resultados
+//       resultsContainer.appendChild(recipeLink);
+//       resultsContainer.appendChild(document.createElement('br')); // Adicione uma quebra de linha para separar os links
+//     });
+//   } else {
+//     resultsContainer.innerHTML = '<p>Nenhuma receita encontrada para a categoria selecionada.</p>';
+//   }
+// }
+
+// // Adicione a chamada da função searchRecipesByCategory() no evento onchange dos selects
+// document.getElementById('categoria1').onchange = searchRecipesByCategory();
+// document.getElementById('categoria2').onchange = searchRecipesByCategory();
+// document.getElementById('categoria3').onchange = searchRecipesByCategory();
+// document.getElementById('categoria4').onchange = searchRecipesByCategory();
+
+function displayRecipeDetails(recipe) {
+  // Crie e exiba um modal com os detalhes da receita
+  const recipeElement = document.createElement('dialog');
+  recipeElement.innerHTML = `<h2>${recipe.nome}</h2>
+                             <p>Chef: ${recipe.Nome_Chef}</p>
+                             <p>Ingredientes: ${recipe.ingredientes ? recipe.ingredientes.join(', ') : 'N/A'}</p>
+                             <p>Dificuldade: ${recipe.Nivel_de_dificuldade}</p>
+                             <p>Tempo de preparação: ${recipe.tempo_de_preparo}</p>
+                             <button onclick="closeModal()">Voltar</button>
+                             <hr>`;
+  document.body.appendChild(recipeElement);
+  recipeElement.showModal();
+
+  const closeModalButton = recipeElement.querySelector('button');
+  closeModalButton.onclick = function() {
+    recipeElement.close();
+    // Remova o modal do DOM após fechar
+    document.body.removeChild(recipeElement);
+  };
+}
+
     document.addEventListener("DOMContentLoaded", function() {
         // Carrega o JSON de receitas
-        fetch('receitas.json')
-            .then(function(response) {
-                return response.json();
-            })
-            .then(function(data) {
-                // Obtém os links das receitas
-                const linksReceitas = document.querySelectorAll('.list ul li a');
+        // fetch('receitas.json')
+        //     .then(function(response) {
+        //         return response.json();
+        //     })
+        //     .then(function(data) {
+        //         // Obtém os links das receitas
+        //         const linksReceitas = document.querySelectorAll('.list ul li a');
     
-                // Atualiza os links com os títulos do JSON
-                data.receitas.forEach(function(receita, index) {
-                    const linkReceita = linksReceitas[index];
-                    linkReceita.textContent = receita.nome; // Assume que o título está na propriedade "nome"
-                    linkReceita.dataset.titulo = receita.nome; // Armazena o título no atributo data-titulo
-                });
-            })
-            .catch(function(error) {
-                console.error('Ocorreu um erro ao carregar o JSON:', error);
-            });
-    });
+        //         // Atualiza os links com os títulos do JSON
+        //         data.receitas.forEach(function(receita, index) {
+        //             const linkReceita = linksReceitas[index];
+        //             linkReceita.textContent = receita.nome; // Assume que o título está na propriedade "nome"
+        //             linkReceita.dataset.titulo = receita.nome; // Armazena o título no atributo data-titulo
+        //         });
+        //     })
+        //     .catch(function(error) {
+        //         console.error('Ocorreu um erro ao carregar o JSON:', error);
+        //     });
+        //***funcina duplicando 
+  //       const existingRecipesString = localStorage.getItem('recipeData');
+  // const existingRecipes = existingRecipesString ? JSON.parse(existingRecipesString) : { "receitas": [] };
+
+  // // Adiciona as novas receitas à lista existente
+  // recipesData.receitas.forEach(newRecipe => {
+  //   existingRecipes.receitas.push(newRecipe);
+  // });
+
+  // // Salva a lista atualizada no localStorage
+ 
+  // localStorage.setItem('recipeData', JSON.stringify(existingRecipes));
+  // Carrega as receitas existentes do localStorage
+  const existingRecipesString = localStorage.getItem('recipeData');
+  const existingRecipes = existingRecipesString ? JSON.parse(existingRecipesString) : { "receitas": [] };
+
+  // Obtém as novas receitas do JSON (supondo que você tenha uma variável recipesData)
+  const newRecipes = recipesData.receitas;
+
+  // Itera sobre as novas receitas
+  newRecipes.forEach(newRecipe => {
+    // Verifica se a receita já existe na lista de receitas
+    const recipeExists = existingRecipes.receitas.some(existingRecipe => existingRecipe.nome === newRecipe.nome);
+
+    // Se a receita não existe, adiciona à lista existente
+    if (!recipeExists) {
+      existingRecipes.receitas.push(newRecipe);
+    }
+  });
+
+  // Salva a lista atualizada no localStorage
+  localStorage.setItem('recipeData', JSON.stringify(existingRecipes));
+  
+});
   </script>
 </body>
 

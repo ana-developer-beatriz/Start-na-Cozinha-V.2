@@ -1,12 +1,19 @@
 function carregarDetalhesNaTabela() {
     // dados da primeira receita armazenados no localStorage
     var recipeData = localStorage.getItem('recipeData');
-
+    var listaUser = localStorage.getItem('listaUser');
+ 
     if (recipeData) {
         //Transforma em um objeto JavaScript
         recipeData = JSON.parse(recipeData);
-
+        listaUser = JSON.parse(listaUser);
         document.querySelector('.thNome-receita').innerText = recipeData.titulo;
+        console.log(listaUser[0].nomeCad);
+        if (listaUser[0] && listaUser[0].nomeCad) {
+            document.querySelector('.tdChefName').innerText = listaUser[0].nomeCad;
+        } else {
+            console.error('Formato de listaUser inválido.');
+        }
     } else {
         console.error('Nenhum dado de receita encontrado no localStorage.');
     }
@@ -19,7 +26,7 @@ function exibirDetalhesReceita() {
     //os dados da receita armazenados no localStorage
     var recipeData = localStorage.getItem('recipeData');
     console.log(recipeData);
-
+  
     if (recipeData) {
         // Transforma em um objeto JavaScript
         recipeData = JSON.parse(recipeData);
@@ -30,12 +37,13 @@ function exibirDetalhesReceita() {
         document.querySelector('.img-area').innerHTML = `<img src="${recipeData.foto}" alt="Imagem da Receita">`;
         document.querySelector('.t-preparo').innerText = `Tempo de preparo: ${recipeData.tempoPreparo}`;
         document.querySelector('.dificuldade').innerText = `Dificuldade: ${recipeData.dificuldade}`;
-        document.querySelector('.chef-name').innerText = `Nome do chef: ${recipeData.nomeChef}`;
+       // document.querySelector('.chef-name').innerText = `Nome do chef: ${recipeData.nomeChef}`;
 
         document.querySelector('.lista-ingredientes').innerText = recipeData.ingredientes;
       
         document.querySelector('.text-area').innerText = recipeData.modoPreparo;
 
+       
         // Abre o modal de detalhes da receita
         openModalDetalhes();
     } else {
@@ -76,3 +84,31 @@ document.querySelector('#td-icons a[href="#denid"]').addEventListener('click', e
 function closeModalX() {
     document.getElementById('deniedModal').style.display = 'none';
 }
+
+// function exibirNomeDoChef() {
+//     //os dados da receita armazenados no localStorage
+//     var listaUser = localStorage.getItem('listaUser');
+//     console.log("list",listaUser);
+
+//     if (listaUser) {
+//         // Transforma em um objeto JavaScript
+//         listaUser = JSON.parse(listaUser);
+//         console.log(listaUser);
+//         document.querySelector('.nome-receita').innerText = recipeData.titulo;
+//         document.querySelector('.thNome-receita').innerText = recipeData.titulo;
+       
+//         document.querySelector('.img-area').innerHTML = `<img src="${recipeData.foto}" alt="Imagem da Receita">`;
+//         document.querySelector('.t-preparo').innerText = `Tempo de preparo: ${recipeData.tempoPreparo}`;
+//         document.querySelector('.dificuldade').innerText = `Dificuldade: ${recipeData.dificuldade}`;
+//         document.querySelector('.chef-name').innerText = `Nome do chef: ${recipeData.nomeChef}`;
+
+//         document.querySelector('.lista-ingredientes').innerText = recipeData.ingredientes;
+      
+//         document.querySelector('.text-area').innerText = recipeData.modoPreparo;
+
+//         // Abre o modal de detalhes da receita
+//         openModalDetalhes();
+//     } else {
+//         console.error('Nenhum dado de receita encontrado no localStorage.');
+//     }
+// }
