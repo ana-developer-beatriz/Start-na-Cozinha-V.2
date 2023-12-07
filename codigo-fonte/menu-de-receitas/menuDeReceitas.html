@@ -313,7 +313,7 @@ function searchRecipes() {
   const resultsContainer = document.getElementById('results');
   resultsContainer.innerHTML = '';
 
-  // Obtenha os dados do localStorage e analise-os para obter o objeto recipeData
+
   const storedData = localStorage.getItem('recipeData');
   const recipesData = storedData ? JSON.parse(storedData) : { receitas: [] };
 
@@ -331,14 +331,14 @@ function searchRecipes() {
 
   if (filteredRecipes.length > 0) {
     filteredRecipes.forEach(recipe => {
-      // Crie um link para cada receita
+    
       const recipeLink = document.createElement('a');
-      recipeLink.href = '#'; // Altere isso para o caminho apropriado da sua página de detalhes da receita
+      recipeLink.href = '#'; //
       recipeLink.textContent = recipe.nome;
       recipeLink.onclick = function() {
-        // Ao clicar no link, exiba o modal com os detalhes da receita
+       
         displayRecipeDetails(recipe);
-        return false; // Isso evita a navegação padrão do link
+        return false; //
       };
 
       // Adicione o link à lista de resultados
@@ -360,7 +360,7 @@ function searchRecipes() {
 
 //   const filteredRecipes = recipesData.receitas.filter(recipe => {
 //     return (
-//       (categoria1 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria1)) ||
+//       (categoria1 !== 'todos'&& recipe.categorias.includes(categoria1)) ||
 //       (categoria2 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria2)) ||
 //       (categoria3 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria3)) ||
 //       (categoria4 !== 'todos' && recipe.categorias && recipe.categorias.includes(categoria4))
@@ -369,7 +369,7 @@ function searchRecipes() {
 
 //   if (filteredRecipes.length > 0) {
 //     filteredRecipes.forEach(recipe => {
-//       // Crie um link para cada receita
+//   
 //       const recipeLink = document.createElement('a');
 //       recipeLink.href = '#'; // Altere isso para o caminho apropriado da sua página de detalhes da receita
 //       recipeLink.textContent = recipe.nome;

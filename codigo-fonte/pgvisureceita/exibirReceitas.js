@@ -57,9 +57,9 @@ function exibirTituloDaReceita(receitaIndex) {
 }
 function exibirImgDaReceita(receitaIndex) {
     carregarReceitas(function (receitas) {
-        var imgSrc = receitas[receitaIndex].imagemRecipes;
+        var imgSrc = receitas[receitaIndex].imagemRecipe;
         console.log(receitas);
-         // Cria a tag img
+         
          var imgElement = document.createElement('img');
          imgElement.src = imgSrc;
          imgElement.alt = "Imagem de Preparo"; // Substitua pelo texto alternativo apropriado
