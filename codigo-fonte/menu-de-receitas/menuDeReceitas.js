@@ -123,9 +123,6 @@ const recipesData = {
   ]
 };
 
-  // function handleCategoryChange() {
-  //   searchRecipes();
-  // }
   function closeModal() {
     const openModals = document.querySelectorAll('dialog[open]');
     openModals.forEach(modal => modal.close());
@@ -191,10 +188,7 @@ function displayRecipeDetails(recipe) {
       };
     }
 
-function handleCategoryChange(categoryNumber) {
- // const selectedCategory = "Bolos";
-
-  //const selectedCategory = document.getElementById('categoria1').value;
+function handleCategoryChange(categoryNumber) { 
   const selectedCategory = document.getElementById(`categoria${categoryNumber}`).value;
   console.log(selectedCategory);
   const selectedRecipe = getRecipeByCategory(selectedCategory);
@@ -206,13 +200,11 @@ console.log(selectedRecipe);
 
 function getRecipeByCategory(category =  "Massas") {
   console.log("category", category);
-  // Obtenha a lista de receitas filtrada pela categoria
   const filteredRecipes = recipesData.receitas.filter(recipe =>
     recipe.categorias && recipe.categorias.includes(category)
   );
 console.log("filteredRecipes",filteredRecipes);
 console.log("recipeData", recipesData.receitas);
-  // Retorne a primeira receita encontrada (ou null se não houver nenhuma)
   return filteredRecipes.length > 0 ? filteredRecipes[0] : null;
 }
 
