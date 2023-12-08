@@ -33,11 +33,20 @@ header {
   font-size: 10px;
   font-weight: bold;
 }
-
-a {
+.all-links{
   color:  #49A078 ;
   text-decoration: none;
   transition: 0.3s;
+}
+a[href="#"] {
+  color:  #49A078 ;
+  text-decoration: none;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
 }
 
 a:hover {
