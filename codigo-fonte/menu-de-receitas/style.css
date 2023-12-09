@@ -248,7 +248,7 @@ body {
 .recipe img {
   border-radius: 50%;
   max-width: 100px;
-  max-height: 100px;
+  max-height: 75px;
   margin-bottom: 10px;
 }
 
