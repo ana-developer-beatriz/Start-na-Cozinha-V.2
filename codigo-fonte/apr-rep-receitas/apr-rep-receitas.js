@@ -1,14 +1,16 @@
 function carregarDetalhesNaTabela() {
     // dados da primeira receita armazenados no localStorage
-    var recipeData = localStorage.getItem('recipeData');
+    var recipeData = localStorage.getItem('recipeData', recipeData);
     var listaUser = localStorage.getItem('listaUser');
- 
+ console.log("recipeData",recipeData)
+ console.log("listaUser", listaUser[0].nomeCad);
     if (recipeData) {
         //Transforma em um objeto JavaScript
         recipeData = JSON.parse(recipeData);
+      
         listaUser = JSON.parse(listaUser);
-        document.querySelector('.thNome-receita').innerText = recipeData.titulo;
-        console.log(listaUser[0].nomeCad);
+        document.querySelector('.thNome-receita').innerText = recipeData.receitas[0].nome;
+        
         if (listaUser[0] && listaUser[0].nomeCad) {
             document.querySelector('.tdChefName').innerText = listaUser[0].nomeCad;
         } else {
@@ -31,19 +33,19 @@ function exibirDetalhesReceita() {
         // Transforma em um objeto JavaScript
         recipeData = JSON.parse(recipeData);
         console.log(recipeData.ingredientes);
-        document.querySelector('.nome-receita').innerText = recipeData.titulo;
-        document.querySelector('.thNome-receita').innerText = recipeData.titulo;
+        document.querySelector('.nome-receita').innerText = recipeData.receitas[0].nome;
+        document.querySelector('.thNome-receita').innerText = recipeData.receitas[0].nome;
        
         document.querySelector('.img-area').innerHTML = `<img src="${recipeData.foto}" alt="Imagem da Receita">`;
-        document.querySelector('.t-preparo').innerText = `Tempo de preparo: ${recipeData.tempoPreparo}`;
-        document.querySelector('.dificuldade').innerText = `Dificuldade: ${recipeData.dificuldade}`;
+        document.querySelector('.t-preparo').innerText = `Tempo de preparo: ${recipeData.receitas[0].tempo_de_preparo}`;
+        document.querySelector('.dificuldade').innerText = `Dificuldade: ${recipeData.receitas[0].Nivel_de_dificuldade}`;
        // document.querySelector('.chef-name').innerText = `Nome do chef: ${recipeData.nomeChef}`;
 
-        document.querySelector('.lista-ingredientes').innerText = recipeData.ingredientes;
+        document.querySelector('.lista-ingredientes').innerText = recipeData.receitas[0].ingredientes;
       
-        document.querySelector('.text-area').innerText = recipeData.modoPreparo;
+        document.querySelector('.text-area').innerText = recipeData.receitas[0].modo_de_preparo;
 
-       
+       console.log("modo de preparo", recipeData.receitas[0].modo_de_preparo)
         // Abre o modal de detalhes da receita
         openModalDetalhes();
     } else {
@@ -85,30 +87,6 @@ function closeModalX() {
     document.getElementById('deniedModal').style.display = 'none';
 }
 
-// function exibirNomeDoChef() {
-//     //os dados da receita armazenados no localStorage
-//     var listaUser = localStorage.getItem('listaUser');
-//     console.log("list",listaUser);
-
-//     if (listaUser) {
-//         // Transforma em um objeto JavaScript
-//         listaUser = JSON.parse(listaUser);
-//         console.log(listaUser);
-//         document.querySelector('.nome-receita').innerText = recipeData.titulo;
-//         document.querySelector('.thNome-receita').innerText = recipeData.titulo;
-       
-//         document.querySelector('.img-area').innerHTML = `<img src="${recipeData.foto}" alt="Imagem da Receita">`;
-//         document.querySelector('.t-preparo').innerText = `Tempo de preparo: ${recipeData.tempoPreparo}`;
-//         document.querySelector('.dificuldade').innerText = `Dificuldade: ${recipeData.dificuldade}`;
-//         document.querySelector('.chef-name').innerText = `Nome do chef: ${recipeData.nomeChef}`;
-
-//         document.querySelector('.lista-ingredientes').innerText = recipeData.ingredientes;
-      
-//         document.querySelector('.text-area').innerText = recipeData.modoPreparo;
-
-//         // Abre o modal de detalhes da receita
-//         openModalDetalhes();
-//     } else {
-//         console.error('Nenhum dado de receita encontrado no localStorage.');
-//     }
-// }
+function redirecionarParaArquivo() {
+    window.location.href = "../paginaHome/paginaHome.html";
+}

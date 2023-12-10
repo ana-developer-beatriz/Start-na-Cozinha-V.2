@@ -5,7 +5,7 @@ function submitForm() {
     var dificuldade = document.getElementById('dificuldade').value
     var tempoPreparo = document.getElementById('tempo-preparo').value;
     var categoria = document.getElementById('categoria').value;
-   ;
+   
     var foto = document.getElementById('inputImagem').value;
     handleFileInput();
     // Verifica se todos os campos estão preenchidos
