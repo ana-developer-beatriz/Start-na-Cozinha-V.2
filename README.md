@@ -22,26 +22,24 @@ Desenvolvimento de uma aplicação web que possibilite disponibilização de rec
 
 # Documentação
 
-<ol>
-<li><a href="documentos/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
-<li><a href="documentos/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
-<li><a href="documentos/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="documentos/04-Projeto de Interface.md"> Projeto de Interface</a></li>
-<li><a href="documentos/05-Template padrão da Aplicação.md"> Template padrão da Aplicação</a></li>
-<li><a href="documentos/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="documentos/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="documentos/08-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
-</ol>
+1. [Documentação de Contexto](/documentos/01-Documentação%20de%20Contexto.md)
+1. [Especificação do Projeto](/documentos/02-Especificação%20do%20Projeto.md)
+1. [Metodologia](/documentos/03-Metodologia.md)
+1. [Projeto de Interface](/documentos/04-Projeto%20de%20Interface.md)
+1. [Template padrão da Aplicação](/documentos/05-Template%20padrão%20da%20Aplicação.md)
+1. [Programação de Funcionalidades](/documentos/06-Programação%20de%20Funcionalidades.md)
+1. [Plano de Testes de Software](/documentos/07-Plano%20de%20Testes%20de%20Software.md)
+1. [Registro de Testes de Software](/documentos/08-Registro%20de%20Testes%20de%20Software.md)
+1. [Referências Bibliográficas](/documentos/09-Referências%20Bibliográficas.md)
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* Acesse a página Home do Start na Cozinha hospedado no Github Pages clicando [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/codigo-fonte/paginaHome/paginaHome.html).
 
 # Código-Fonte
 
-* <a href="codigo-fonte/README.md">Código Fonte</a>
+* [Código Fonte](/codigo-fonte/README.md)
 
 # Apresentação
 
-* <a href="apresentacao/README.md">Apresentação do Projeto</a>
+* [Apresentação - Start na Cozinha](/apresentacao/README.md)
