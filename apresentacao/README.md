@@ -6,7 +6,7 @@
 
 ## Vídeo de apresentação
 
-[Vídeo de Apresentação](/apresentacao/files/Video%202.mp4)
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t2-projeto_start_na_cozinha_g4/assets/112132378/fa82c515-7f80-46ca-b9d1-c944552971b9
 
 ## Hospedagem
 
